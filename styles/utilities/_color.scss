@@ -1,0 +1,40 @@
+/**
+ * Color names
+ *
+ * Type: Map
+ */
+
+$iota-utils-color-names: (
+  body-1: $oc-gray-7,
+  body-2: $oc-gray-6,
+  display: $oc-gray-8,
+  title: $oc-gray-8,
+  headline: $oc-gray-8,
+  menu: $oc-gray-7,
+  button: $oc-gray-7,
+  caption: $oc-gray-7,
+  quote: $oc-gray-6,
+
+  gray-0: $oc-gray-0,
+  gray-1: $oc-gray-1,
+  gray-2: $oc-gray-2,
+  gray-3: $oc-gray-3,
+  gray-4: $oc-gray-4,
+  gray-5: $oc-gray-5,
+  gray-6: $oc-gray-6,
+  gray-7: $oc-gray-7,
+  gray-8: $oc-gray-8,
+  gray-9: $oc-gray-9
+);
+
+
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-utils-color-namespace: 'color-';
+
+
+@import 'iotacss/utilities/color';

@@ -1,0 +1,31 @@
+/**
+ * Background color names
+ *
+ * Type: Map
+ */
+
+$iota-utils-bgcolor-names: (
+  'white': '#ffffff',
+  'tango': '#ef5231',
+  'gray-0': $oc-gray-0,
+  'gray-1': $oc-gray-1,
+  'gray-2': $oc-gray-2,
+  'gray-3': $oc-gray-3,
+  'gray-4': $oc-gray-4,
+  'gray-5': $oc-gray-5,
+  'gray-6': $oc-gray-6,
+  'gray-7': $oc-gray-7,
+  'gray-9': $oc-gray-9
+);
+
+
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-utils-bgcolor-namespace: 'bgcolor-';
+
+
+@import 'iotacss/utilities/bgcolor';

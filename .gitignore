@@ -1,5 +1,6 @@
 node_modules
 
 .next
-
+.sass-cache
+.gulp-scss-cache
 .DS_Store

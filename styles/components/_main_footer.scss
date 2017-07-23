@@ -1,0 +1,16 @@
+.c-main-footer {
+  background-color: $oc-gray-9;
+  color: $oc-gray-6;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  a {
+    color: $oc-gray-5;
+    text-decoration: none;
+
+    &:hover {
+      color: $oc-gray-0;
+    }
+  }
+}

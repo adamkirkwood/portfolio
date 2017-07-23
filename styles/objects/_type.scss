@@ -1,0 +1,39 @@
+/**
+ * Allows you to change the default type name from .o-type-.
+ *
+ * Type: String
+ */
+
+$iota-objs-type-namespace: 'type-';
+
+
+/**
+ * Allows you to specify typography sizes.
+ *
+ * Type: Map
+ */
+
+$iota-objs-type-sizes: (
+  promo: (80px, 60px),
+  big-quote: (35px, 50px),
+  display-2: (45px, 60px),
+  display-1: (35px, 50px),
+  lead: (20px, 36px),
+  title: (24px, 32px),
+  headline: (20px, 32px),
+  body-2: (18px, 32px),
+  small: (14px,16px)
+);
+
+
+@import 'iotacss/objects/type';
+
+
+body {
+  font-family: "nimbus-sans", sans-serif;
+}
+
+.o-type-italic {
+  font-family: "pt-serif-caption",serif;
+  font-style: italic;
+}

@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    ["module-resolver", {
+      "alias": {
+        "styles": "./styles",
+        "components": "./components",
+        "static": "./static"
+      },
+      "cwd": "babelrc"
+    }]
+  ],
+  "ignore": []
+}

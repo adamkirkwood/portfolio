@@ -7,13 +7,33 @@
   "author": "Adam Kirkwood <hello@adamkirkwood.com>",
   "license": "MIT",
   "scripts": {
+    "gulp": "./node_modules/gulp/bin/gulp.js",
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "npm run gulp && now",
+    "rebuild": "rm -rf ./node_modules && yarn"
   },
   "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "iotacss": "^1.1.1",
+    "iotacss-components-button": "^1.0.3",
     "next": "beta",
+    "open-color": "^1.5.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "node-sass": "^4.5.3",
+    "postcss-easy-import": "^2.1.0",
+    "postcss-loader": "^2.0.6",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.6"
   }
 }

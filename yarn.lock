@@ -1276,10 +1276,6 @@ d@1:
   dependencies:
     es5-ext "^0.10.9"
 
-dargs@^5.0.1:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/dargs/-/dargs-5.1.0.tgz#ec7ea50c78564cd36c9d5ec18f66329fade27829"
-
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -1313,10 +1309,6 @@ decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2:
 deep-extend@~0.4.0:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.4.2.tgz#48b699c27e334bf89f10892be432f6e4c7d34a7f"
-
-deepcopy@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/deepcopy/-/deepcopy-0.5.0.tgz#d2ca34335c2d31f54c1b4f13745e001977d491a2"
 
 defaults@^1.0.0:
   version "1.0.3"
@@ -2055,21 +2047,7 @@ gulp-sass@^3.1.0:
     through2 "^2.0.0"
     vinyl-sourcemaps-apply "^0.2.0"
 
-gulp-scss@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/gulp-scss/-/gulp-scss-1.4.0.tgz#d17cb418d1593815fc375e789acd9aea3ab84c0a"
-  dependencies:
-    convert-source-map "^1.1.0"
-    dargs "^5.0.1"
-    extend "^3.0.0"
-    gulp-util "^3.0.4"
-    mkdirp "^0.5.1"
-    node-kissdi "^1.0.3"
-    q "^1.3.0"
-    through2 "^2.0.0"
-    vinyl-sourcemaps-apply "^0.2.1"
-
-gulp-util@^3.0, gulp-util@^3.0.0, gulp-util@^3.0.4:
+gulp-util@^3.0, gulp-util@^3.0.0:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/gulp-util/-/gulp-util-3.0.8.tgz#0054e1e744502e27c04c187c3ecc505dd54bbb4f"
   dependencies:
@@ -2986,6 +2964,12 @@ ncp@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ncp/-/ncp-2.0.0.tgz#195a21d6c46e361d2fb1281ba38b91e9df7bdbb3"
 
+next-routes@^1.0.40:
+  version "1.0.40"
+  resolved "https://registry.yarnpkg.com/next-routes/-/next-routes-1.0.40.tgz#1987ed88be808440f7eb963d3836916f46938e73"
+  dependencies:
+    path-to-regexp "^1.7.0"
+
 next@beta:
   version "3.0.1-beta.18"
   resolved "https://registry.yarnpkg.com/next/-/next-3.0.1-beta.18.tgz#fa09e59c54a2c1ed23bbc89746ed74545bebcaa0"
@@ -3070,12 +3054,6 @@ node-gyp@^3.3.1:
     semver "~5.3.0"
     tar "^2.0.0"
     which "1"
-
-node-kissdi@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/node-kissdi/-/node-kissdi-1.0.3.tgz#dface4fd8b8d158500dc271c0974be940959a9b0"
-  dependencies:
-    deepcopy "^0.5.0"
 
 node-libs-browser@^2.0.0:
   version "2.0.0"
@@ -3400,7 +3378,7 @@ path-root@^0.1.1:
   dependencies:
     path-root-regex "^0.1.0"
 
-path-to-regexp@^1.0.0:
+path-to-regexp@^1.0.0, path-to-regexp@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-1.7.0.tgz#59fde0f435badacba103a84e9d3bc64e96b9937d"
   dependencies:
@@ -3611,10 +3589,6 @@ punycode@^1.2.4, punycode@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
 
-q@^1.3.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/q/-/q-1.5.0.tgz#dd01bac9d06d30e6f219aecb8253ee9ebdc308f1"
-
 qs@~6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
@@ -3686,6 +3660,13 @@ react-proxy@^3.0.0-alpha.0:
   resolved "https://registry.yarnpkg.com/react-proxy/-/react-proxy-3.0.0-alpha.1.tgz#4400426bcfa80caa6724c7755695315209fa4b07"
   dependencies:
     lodash "^4.6.1"
+
+react-typekit@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-typekit/-/react-typekit-1.1.0.tgz#53e7081587c877d1d80398f6a7d25a5292fd2003"
+  dependencies:
+    lodash "^4.17.4"
+    prop-types "^15.5.10"
 
 react@^15.6.1:
   version "15.6.1"
@@ -4469,7 +4450,7 @@ vinyl-fs@^0.3.0:
     through2 "^0.6.1"
     vinyl "^0.4.0"
 
-vinyl-sourcemaps-apply@^0.2.0, vinyl-sourcemaps-apply@^0.2.1:
+vinyl-sourcemaps-apply@^0.2.0:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/vinyl-sourcemaps-apply/-/vinyl-sourcemaps-apply-0.2.1.tgz#ab6549d61d172c2b1b87be5c508d239c8ef87705"
   dependencies:

@@ -8,9 +8,9 @@
   "license": "MIT",
   "scripts": {
     "gulp": "./node_modules/gulp/bin/gulp.js",
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "deploy": "npm run gulp && now",
     "rebuild": "rm -rf ./node_modules && yarn"
   },
@@ -19,9 +19,11 @@
     "iotacss": "^1.1.1",
     "iotacss-components-button": "^1.0.3",
     "next": "beta",
+    "next-routes": "^1.0.40",
     "open-color": "^1.5.1",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-typekit": "^1.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

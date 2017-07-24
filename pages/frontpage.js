@@ -1,8 +1,11 @@
 import React from 'react'
 import Head from 'next/head'
-import CSSTag from 'components/CSSTag'
+import Typekit from 'react-typekit'
 
-import stylesheet from 'styles/main.scss'
+import { Link } from '../routes'
+
+import MainNavigation from 'components/MainNavigation'
+import Footer from 'components/Footer'
 
 const dev = process.env.NODE_ENV === 'development'
 const prod = !dev
@@ -18,9 +21,14 @@ export default class extends React.Component {
         <Head>
           <title>Adam Kirkwood Portfolio</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-          { dev && <CSSTag style={stylesheet} /> }
+
           { prod && <link rel='stylesheet' href={'/static/main.css'} /> }
+
+          <Typekit kitId="wpl2elk" />
         </Head>
+
+
+        <MainNavigation />
 
         <section className={'c-cover'}>
           <div className={'o-container'}>
@@ -39,6 +47,8 @@ export default class extends React.Component {
             </div>
           </div>
         </section>
+
+        <Footer />
       </div>
     )
   }

@@ -8,14 +8,14 @@ import Footer from 'components/Footer'
 export default ({ children, title = 'This is the default title' }) => (
   <div>
     <Head>
-      <title>{ title }</title>
+      <title>
+        { title } { (process.env.NODE_ENV === 'development') ? 'DEVELOPMENT' : '' }
+      </title>
 
       <meta charSet='utf-8' />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
       <CSSTag />
-
-      <Typekit kitId="wpl2elk" />
     </Head>
 
     { children }

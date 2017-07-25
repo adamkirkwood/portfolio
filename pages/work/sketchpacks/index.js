@@ -1,16 +1,12 @@
 import React from 'react'
-import Head from 'next/head'
-import Typekit from 'react-typekit'
 
 import MainNavigation from 'components/MainNavigation'
-import Footer from 'components/Footer'
 import JobStoryCard from 'components/JobStoryCard'
 import PersonaCard from 'components/PersonaCard'
 
-import { Link } from '../../../routes'
+import ProjectLayout from 'components/layouts/ProjectLayout'
 
-const dev = process.env.NODE_ENV === 'development'
-const prod = !dev
+import { Link } from '../../../routes'
 
 export default class extends React.Component {
   static async getInitialProps ({ query, req }) {
@@ -19,15 +15,7 @@ export default class extends React.Component {
 
   render () {
     return (
-      <div>
-        <Head>
-          <title>Sketchpacks</title>
-          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-
-          { prod && <link rel='stylesheet' href={'/static/main.css'} /> }
-
-          <Typekit kitId="wpl2elk" />
-        </Head>
+      <ProjectLayout title={'Sketchpacks'}>
 
         <MainNavigation inverse />
 
@@ -470,13 +458,9 @@ export default class extends React.Component {
               </div>
             </div>
           </section>
-
-
         </article>
 
-        <Footer />
-
-      </div>
+      </ProjectLayout>
     )
   }
 }

@@ -1,0 +1,26 @@
+import Head from 'next/head'
+import Typekit from 'react-typekit'
+
+import CSSTag from 'components/CSSTag'
+import MainNavigation from 'components/MainNavigation'
+import Footer from 'components/Footer'
+
+export default ({ children, title = 'This is the default title' }) => (
+  <div>
+    <Head>
+      <title>{ title }</title>
+
+      <meta charSet='utf-8' />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+      <CSSTag />
+
+      <Typekit kitId="wpl2elk" />
+    </Head>
+
+    { children }
+
+    <Footer />
+
+  </div>
+)

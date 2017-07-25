@@ -1,14 +1,10 @@
 import React from 'react'
-import Head from 'next/head'
-import Typekit from 'react-typekit'
 
 import MainNavigation from 'components/MainNavigation'
-import Footer from 'components/Footer'
+
+import ProjectLayout from 'components/layouts/ProjectLayout'
 
 import { Link } from '../../../routes'
-
-const dev = process.env.NODE_ENV === 'development'
-const prod = !dev
 
 export default class extends React.Component {
   static async getInitialProps ({ query, req }) {
@@ -17,17 +13,9 @@ export default class extends React.Component {
 
   render () {
     return (
-      <div>
-        <Head>
-          <title>Sketchpacks</title>
-          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <ProjectLayout title={'Tango Out'}>
 
-          { prod && <link rel='stylesheet' href={'/static/main.css'} /> }
-
-          <Typekit kitId="wpl2elk" />
-        </Head>
-
-        <MainNavigation />
+        <MainNavigation inverse />
 
         <section className={'c-page-header u-bgcolor-tango u-angled--bottom'}>
           <div className={'o-container o-container'}>
@@ -38,6 +26,27 @@ export default class extends React.Component {
                 <p className={'o-type-lead'}>A simplified calling experience was only the beginning</p>
 
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className={'o-container u-pt-ultra u-pb-mega'}>
+          <div className={'o-grid'}>
+            <div className={'o-grid__col u-1/1 u-1/4@sm'}>
+              <h2 className={'o-type-display-1 u-color-headline'}>The Challenge</h2>
+            </div>
+            <div className={'o-grid__col u-1/1 u-3/4@sm o-page-content'}>
+              <p className={'o-type-body-2 u-color-body-1'}>
+                I led the UX strategy and visual design for Tango Out. A feature
+                used by millions of people to make phone calls around the world
+                on both Android and iOS.
+              </p>
+
+              <p className={'o-type-body-2 u-color-body-1'}>
+                I simplified the calling experience by focusing on meaningful
+                core interactions that create value. A clear and usable
+                experience was the icing on the cake.
+              </p>
             </div>
           </div>
         </section>
@@ -94,9 +103,7 @@ export default class extends React.Component {
           </div>
         </section>
 
-        <Footer />
-
-      </div>
+      </ProjectLayout>
     )
   }
 }

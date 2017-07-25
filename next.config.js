@@ -1,8 +1,14 @@
+const PRODUCTION_MODE = process.env.NODE_ENV === 'production'
+
 const path = require('path')
 const glob = require('glob')
 
 module.exports = {
   webpack: (config, { dev }) => {
+
+    config.resolve.extensions = (PRODUCTION_MODE
+      ? ['.js', '.json', '.prod.js']
+      : ['.js', '.json', '.dev.js'])
 
     config.module.rules.push(
       {

@@ -18,7 +18,7 @@ export default class extends React.Component {
 
         <article className={'l-case-study'}>
 
-          <div className={'u-angled--bottom o-page-header'}>
+          <div className={'u-angled--bottom o-page-header u-bgcolor-recurly'}>
             <section className={'o-container o-container--wide u-pt-ultra u-pb-large'}>
               <header className={'o-grid o-grid--wide'}>
                 <div className={'o-grid__col u-1/2'}>

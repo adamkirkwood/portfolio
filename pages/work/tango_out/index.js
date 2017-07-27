@@ -331,6 +331,38 @@ export default class extends React.Component {
               className={'u-mb-large'}
             />
           </section>
+
+          <section className={'o-container o-container--narrow u-pt-ultra u-pb-medium'}>
+            <div className={'o-grid'}>
+              <div className={'o-grid__col u-1/1 o-page-content'}>
+                <h2 className={'o-type-title u-color-headline u-mb-small'}>
+                  Takeaways
+                </h2>
+
+                <h3 className={'o-type-headline u-color-headline'}>
+                  Quid pro quo
+                </h3>
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  Asking the user to do something for you is much easier when you
+                  leave them with a good experience. The lasting impression of
+                  quality and accomplishment leads for sharing without much effort.
+                  Successful calls led to more invites sent and conversions.
+                </p>
+
+                <h3 className={'o-type-headline u-color-headline'}>
+                  Only a means to an end
+                </h3>
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  The real experience that people attach value to was the actual
+                  call itself. The responsibility of the dialing experience is to
+                  set the perceived speed of making a phone call. This accounted
+                  for half of the entire calling experience from end to end.
+                </p>
+              </div>
+            </div>
+          </section>
+
+
         </article>
       </ProjectLayout>
     )

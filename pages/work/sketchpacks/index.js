@@ -323,7 +323,7 @@ export default class extends React.Component {
             </div>
           </section>
 
-          <section className={'o-container o-container u-pt-mega'}>
+          <section className={'o-container o-container--wide u-pt-mega'}>
             <div className={'o-grid o-grid--wide o-grid--rev'}>
               <div className={'o-grid__col u-1/1 u-1/2@sm o-page-content'}>
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>Management</h2>
@@ -342,8 +342,7 @@ export default class extends React.Component {
 
               <div className={'o-grid__col u-1/1 u-1/2@sm'}>
                 <img
-                  src='/static/work/sketchpacks/version-ranges-and-locks.png'
-                  width="541"
+                  src='/static/work/sketchpacks/version-ranges-and-locks@2x.png'
                 />
               </div>
             </div>

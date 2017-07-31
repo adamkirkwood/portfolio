@@ -261,7 +261,7 @@ export default class extends React.Component {
             </div>
           </section>
 
-          <div className={'u-angled--both--reverse u-bgcolor-gray-0'}>
+          <div className={'u-bgcolor-gray-0'}>
             <blockquote className={'o-container u-pv-large c-quote u-1/2 u-ph-large'}>
               <p className={'o-type-big-quote u-weight-light o-type-italic u-color-quote u-mb-small'}>
                 &ldquo;The beauty of a living thing is not the atoms that go into
@@ -323,9 +323,9 @@ export default class extends React.Component {
             </div>
           </section>
 
-          <section className={'o-container o-container--wide u-pt-mega'}>
+          <section className={'o-container o-container u-pt-mega'}>
             <div className={'o-grid o-grid--wide o-grid--rev'}>
-              <div className={'o-grid__col u-1/1 u-1/3@sm o-page-content'}>
+              <div className={'o-grid__col u-1/1 u-1/2@sm o-page-content'}>
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>Management</h2>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
@@ -340,8 +340,11 @@ export default class extends React.Component {
                 </p>
               </div>
 
-              <div className={'o-grid__col u-1/1 u-2/3@sm'}>
-                <img src='https://placeimg.com/640/480/tech?t=1500010858937' />
+              <div className={'o-grid__col u-1/1 u-1/2@sm'}>
+                <img
+                  src='/static/work/sketchpacks/version-ranges-and-locks.png'
+                  width="541"
+                />
               </div>
             </div>
           </section>
@@ -376,13 +379,13 @@ export default class extends React.Component {
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>Syncing</h2>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Designers and teams will have the ability to sync their plugins
+                  Designers and teams will have the ability to sync plugins
                   across machines in near real&ndash;time.
                 </p>
               </div>
 
               <div className={'o-grid__col u-1/1 u-2/3@sm'}>
-                <img src='https://placeimg.com/640/480/tech?t=1500010858937' />
+                <img src='/static/work/sketchpacks/syncing@2x.png' width="640" />
               </div>
             </div>
           </section>

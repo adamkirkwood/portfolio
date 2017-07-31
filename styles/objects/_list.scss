@@ -5,7 +5,7 @@
  * Type: Boolean
  */
 
-$iota-objs-list-block: false;
+$iota-objs-list-block: true;
 
 
 /**
@@ -49,6 +49,7 @@ $iota-objs-list-gutter-default: $iota-global-gutter-default;
  */
 
 $iota-objs-list-gutter-extra: (
+  medium: 16px,
   wide: 64px
 );
 

@@ -4,6 +4,7 @@ import Typekit from 'react-typekit'
 
 import { Link } from '../routes'
 
+import CSSTag from 'components/CSSTag'
 import MainNavigation from 'components/MainNavigation'
 import Footer from 'components/Footer'
 
@@ -22,7 +23,7 @@ export default class extends React.Component {
           <title>Adam Kirkwood Portfolio</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
-          { prod && <link rel='stylesheet' href={'/static/main.css'} /> }
+          <CSSTag />
 
           <Typekit kitId="wpl2elk" />
         </Head>

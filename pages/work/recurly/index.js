@@ -25,7 +25,6 @@ export default class extends React.Component {
                   <h1 className={'o-type-promo u-mb-medium'}>Recurly</h1>
                   <p className={'o-type-lead u-mb-medium'}>
                     Enterprise&ndash;class subscription management platform
-                    powering thousands of businesses.
                   </p>
                 </div>
 
@@ -85,7 +84,7 @@ export default class extends React.Component {
           <section className={'o-container o-container--narrow u-pt-ultra u-pb-medium'}>
             <div className={'o-grid'}>
               <div className={'o-grid__col u-1/1 o-page-content'}>
-                <h2 className={'o-type-title u-color-headline u-mb-small'}>
+                <h2 className={'o-type-display-1 u-color-headline u-mb-small'}>
                   The Approach
                 </h2>
 
@@ -200,7 +199,7 @@ export default class extends React.Component {
           <section className={'o-container o-container--narrow u-pt-ultra u-pb-medium'}>
             <div className={'o-grid'}>
               <div className={'o-grid__col u-1/1 o-page-content'}>
-                <h2 className={'o-type-title u-color-headline u-mb-small'}>
+                <h2 className={'o-type-display-1 u-color-headline u-mb-small'}>
                   Takeaways
                 </h2>
 

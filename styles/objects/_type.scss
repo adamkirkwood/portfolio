@@ -14,7 +14,7 @@ $iota-objs-type-namespace: 'type-';
  */
 
 $iota-objs-type-sizes: (
-  promo: (80px, 60px),
+  promo: (80px, 100px),
   big-quote: (35px, 50px),
   display-2: (45px, 60px),
   display-1: (35px, 50px),
@@ -22,7 +22,9 @@ $iota-objs-type-sizes: (
   title: (24px, 32px),
   headline: (20px, 32px),
   body-2: (18px, 32px),
-  small: (14px,24px)
+  body-1: (16px, 28px),
+  small: (14px,24px),
+  footer: (14px,24px)
 );
 
 

@@ -18,7 +18,7 @@ export default class extends React.Component {
 
         <article className={'l-case-study'}>
 
-          <div className={'u-angled--bottom o-page-header'}>
+          <div className={'u-angled--bottom o-page-header o-page-header--tango'}>
             <section className={'o-container o-container--wide u-pt-ultra u-pb-large'}>
               <header className={'o-grid o-grid--wide'}>
                 <div className={'o-grid__col u-1/2'}>
@@ -42,10 +42,10 @@ export default class extends React.Component {
 
           <section className={'o-container u-pv-ultra u-mt-mega'}>
             <div className={'o-grid'}>
-              <div className={'o-grid__col u-1/1 u-1/4@sm'}>
-                <h2 className={'o-type-display-1 u-color-headline'}>The Challenge</h2>
+              <div className={'o-grid__col u-1/1 u-1/3@sm'}>
+                <h2 className={'o-type-display-2 u-color-headline'}>The Challenge</h2>
               </div>
-              <div className={'o-grid__col u-1/1 u-3/4@sm o-page-content'}>
+              <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
                   Millions of people around the world rely on Tango
                   Video Calling to keep their meaningful relationships with
@@ -82,14 +82,14 @@ export default class extends React.Component {
 
           <section className={'o-container u-mt-mega u-mb-mega u-pt-large'}>
             <div className={'o-grid'}>
-              <div className={'o-grid__col u-1/1 u-1/4@sm'}>
-                <h2 className={'o-type-display-1 u-color-headline'}>The Approach</h2>
+              <div className={'o-grid__col u-1/1 u-1/3@sm'}>
+                <h2 className={'o-type-display-2 u-color-headline'}>The<br /> Approach</h2>
               </div>
-              <div className={'o-grid__col u-1/1 u-3/4@sm o-page-content'}>
+              <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
                   After many in&ndash;depth user interviews, I found three major
                   obstactles that seemed to hinder the average person&apos;s ability
-                  to full immerse themselves within a Tango Video Calling experience.
+                  to fully immerse themselves within a Tango Video Calling experience.
                 </p>
               </div>
             </div>
@@ -103,8 +103,10 @@ export default class extends React.Component {
                   Discovery
                 </h3>
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  The average user failed to discover the rich and engaging content
-                  that the app had since it&apos;s initial release.
+                  Call durations for people who engaged with the
+                  content were much longer than those who didn&apos;t. My hypothesis
+                  was that providing more obvious ways of accessing the content
+                  will improve engagement and call durations.
                 </p>
               </div>
 
@@ -141,8 +143,7 @@ export default class extends React.Component {
               />
 
               <figcaption className={'o-type-small u-color-body-1 u-text-center'}>
-                The legacy monolithic app boasted an outdated UI that served
-                thousands of business owners.
+                Access engaging content from the main video screen
               </figcaption>
             </figure>
           </section>
@@ -155,8 +156,7 @@ export default class extends React.Component {
               />
 
               <figcaption className={'o-type-small u-color-body-1 u-text-center'}>
-                The legacy monolithic app boasted an outdated UI that served
-                thousands of business owners.
+                Swiping up created a larger viewing area for the user to browse content
               </figcaption>
             </figure>
           </section>
@@ -169,8 +169,7 @@ export default class extends React.Component {
               />
 
               <figcaption className={'o-type-small u-color-body-1 u-text-center'}>
-                The legacy monolithic app boasted an outdated UI that served
-                thousands of business owners.
+                Navigating between content uses a familiar swipe interaction
               </figcaption>
             </figure>
           </section>
@@ -184,8 +183,7 @@ export default class extends React.Component {
               />
 
               <figcaption className={'o-type-small u-color-body-1 u-text-center'}>
-                The legacy monolithic app boasted an outdated UI that served
-                thousands of business owners.
+                Rapid prototyping brought the designs to life, giving confidence to move forward quickly.
               </figcaption>
             </figure>
           </section>
@@ -194,8 +192,8 @@ export default class extends React.Component {
           <section className={'o-container u-pt-ultra u-pb-medium'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/2 o-page-content'}>
-                <h2 className={'o-type-title u-color-headline u-mb-small'}>
-                  Results
+                <h2 className={'o-type-display-2 u-color-headline u-mb-small'}>
+                  The Outcome
                 </h2>
 
                 <h3 className={'o-type-headline u-color-headline'}>
@@ -246,8 +244,8 @@ export default class extends React.Component {
           <section className={'o-container o-container--narrow u-pt-ultra u-pb-medium'}>
             <div className={'o-grid'}>
               <div className={'o-grid__col u-1/1 o-page-content'}>
-                <h2 className={'o-type-title u-color-headline u-mb-small'}>
-                  Takeaways
+                <h2 className={'o-type-display-2 u-color-headline u-mb-small'}>
+                  The Takeaways
                 </h2>
 
                 <h3 className={'o-type-headline u-color-headline'}>

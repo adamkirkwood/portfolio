@@ -21,14 +21,14 @@ export default class extends React.Component {
 
         <article className={'l-case-study'}>
 
-          <div className={'u-angled--bottom o-page-header'}>
+          <div className={'u-angled--bottom o-page-header o-page-header--sketchpacks'}>
             <section className={'o-container o-container--wide u-pt-ultra u-pb-large'}>
               <header className={'o-grid o-grid--wide'}>
                 <div className={'o-grid__col u-1/2'}>
                   <h1 className={'o-type-promo u-mb-medium'}>Sketchpacks</h1>
                   <p className={'o-type-lead u-mb-medium'}>
-                    A macOS app that empowers Sketch users to manage and sync
-                    their plugins across machines and teams.
+                    A macOS app that empowers users to manage and sync
+                    their Sketch plugins across machines and teams.
                   </p>
                   <a href={'https://sketchpacks.com/'} className={'c-button c-button--primary'}>
                     Download Sketchpacks
@@ -46,12 +46,12 @@ export default class extends React.Component {
             </section>
           </div>
 
-          <section className={'o-container u-pt-ultra u-pb-mega'}>
-            <div className={'o-grid'}>
-              <div className={'o-grid__col u-1/1 u-1/4@sm'}>
-                <h2 className={'o-type-display-1 u-color-headline'}>The Challenge</h2>
+          <section className={'o-container u-pv-ultra u-mt-mega'}>
+            <div className={'o-grid o-grid--wide'}>
+              <div className={'o-grid__col u-1/1 u-1/3@sm'}>
+                <h2 className={'o-type-display-2 u-color-headline'}>The Challenge</h2>
               </div>
-              <div className={'o-grid__col u-1/1 u-3/4@sm o-page-content'}>
+              <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
                   Sketch provides a powerful Javascript API, allowing the
                   creation of plugins that extend its native functionality. As
@@ -79,11 +79,11 @@ export default class extends React.Component {
           </blockquote>
 
           <section className={'o-container u-pt-mega u-pb-large u-angled--top'}>
-            <div className={'o-grid'}>
-              <div className={'o-grid__col u-1/1 u-1/4@sm'}>
-                <h2 className={'o-type-display-1 u-color-headline'}>The Approach</h2>
+            <div className={'o-grid o-grid--wide'}>
+              <div className={'o-grid__col u-1/1 u-1/3@sm'}>
+                <h2 className={'o-type-display-2 u-color-headline'}>The <br/>Approach</h2>
               </div>
-              <div className={'o-grid__col u-1/1 u-3/4@sm o-page-content'}>
+              <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
                   Well&ndash;understood problems have well&ndash;designed solutions.
                   That&apos;s why understanding the problem and the people affected
@@ -276,12 +276,12 @@ export default class extends React.Component {
 
 
           <section className={'o-container u-pt-mega u-pb-large u-angled--top'}>
-            <div className={'o-grid'}>
-              <div className={'o-grid__col u-1/1 u-1/4@sm'}>
-                <h2 className={'o-type-display-1 u-color-headline'}>The Strategy</h2>
+            <div className={'o-grid o-grid--wide'}>
+              <div className={'o-grid__col u-1/1 u-1/3@sm'}>
+                <h2 className={'o-type-display-2 u-color-headline'}>The Strategy</h2>
               </div>
 
-              <div className={'o-grid__col u-1/1 u-3/4@sm o-page-content'}>
+              <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
                   I believe design is a continuous conversation over time. Where
                   with each iteration, you learn more about the problem and provides
@@ -372,8 +372,8 @@ export default class extends React.Component {
           </section>
 
           <section className={'o-container o-container--wide u-pt-mega'}>
-            <div className={'o-grid o-grid--wide o-grid--rev'}>
-              <div className={'o-grid__col u-1/1 u-1/3@sm o-page-content'}>
+            <div className={'o-grid o-grid--rev'}>
+              <div className={'o-grid__col u-1/1 u-1/2@sm o-page-content'}>
                 <span className={'c-label u-bgcolor-tango o-type-small u-uppercase'}>Coming Soon</span>
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>Syncing</h2>
 
@@ -383,19 +383,19 @@ export default class extends React.Component {
                 </p>
               </div>
 
-              <div className={'o-grid__col u-1/1 u-2/3@sm'}>
-                <img src='/static/work/sketchpacks/syncing@2x.png' width="640" />
+              <div className={'o-grid__col u-1/1 u-1/2@sm'}>
+                <img src='/static/work/sketchpacks/syncing@2x.png' width="500" />
               </div>
             </div>
           </section>
 
           <section className={'o-container u-pt-ultra u-pb-large u-angled--top'}>
-            <div className={'o-grid'}>
-              <div className={'o-grid__col u-1/1 u-1/4@sm'}>
-                <h2 className={'o-type-display-1 u-color-headline'}>The Impact</h2>
+            <div className={'o-grid o-grid--wide'}>
+              <div className={'o-grid__col u-1/1 u-1/3@sm'}>
+                <h2 className={'o-type-display-2 u-color-headline'}>The Impact</h2>
               </div>
 
-              <div className={'o-grid__col u-1/1 u-3/4@sm'}>
+              <div className={'o-grid__col u-1/1 u-2/3@sm'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
                   Since the <a href="https://medium.com/building-sketchpacks/introducing-sketchpacks-for-macos-8f4df3313b95">product launch</a> in March &apos;17, our team of two has
                   achieved a considerable amount of milestones yielding us some
@@ -406,26 +406,42 @@ export default class extends React.Component {
           </section>
 
           <div className={'u-bgcolor-gray-9'}>
-            <section className={'o-container o-container--wide u-pt-small u-pb-mega u-mv-large'}>
-              <div className={'o-grid o-grid--wide o-grid--cards'}>
-                <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/4@sm u-align-middle'}>
-                  <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0 u-block'}>App Downloads</span>
-                  <p className={'o-type-big-quote u-mt-small u-weight-medium u-color-gray-0 u-block'}>22k</p>
+            <section className={'o-container o-container--wide u-pv-large u-mv-large'}>
+              <div className={'o-grid o-grid--wide'}>
+                <div className={'o-grid__col u-1/1 u-1/4@sm'}>
+                  <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0 u-block'}>
+                    App Downloads
+                  </span>
+                  <p className={'o-type-promo u-mt-small u-weight-thin u-color-gray-0'}>
+                    22k
+                  </p>
                 </div>
 
-                <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/4@sm'}>
-                  <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0'}>Plugin Installs</span>
-                  <p className={'o-type-big-quote u-mt-small u-weight-medium u-color-gray-0'}>37k</p>
+                <div className={'o-grid__col u-1/1 u-1/4@sm'}>
+                  <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0'}>
+                    Plugin Installs
+                  </span>
+                  <p className={'o-type-promo u-mt-small u-weight-thin u-color-gray-0'}>
+                    37k
+                  </p>
                 </div>
 
-                <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/4@sm'}>
-                  <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0'}>Plugin Updates</span>
-                  <p className={'o-type-big-quote u-mt-small u-weight-medium u-color-gray-0'}>87k</p>
+                <div className={'o-grid__col u-1/1 u-1/4@sm'}>
+                  <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0'}>
+                    Plugin Updates
+                  </span>
+                  <p className={'o-type-promo u-mt-small u-weight-thin u-color-gray-0'}>
+                    87k
+                  </p>
                 </div>
 
-                <div className={'o-grid__col o-grid--equal-height u-1/1 u-1/4@sm'}>
-                  <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0'}>Monthly Active Users</span>
-                  <p className={'o-type-big-quote u-mt-small u-weight-medium u-color-gray-0'}>4k</p>
+                <div className={'o-grid__col u-1/1 u-1/4@sm'}>
+                  <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0'}>
+                    Monthly Active Users
+                  </span>
+                  <p className={'o-type-promo u-mt-small u-weight-thin u-color-gray-0'}>
+                    4k
+                  </p>
                 </div>
               </div>
             </section>

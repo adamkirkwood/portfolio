@@ -18,7 +18,7 @@ export default class extends React.Component {
 
         <article className={'l-case-study'}>
 
-          <div className={'u-angled--bottom o-page-header u-bgcolor-recurly'}>
+          <div className={'u-angled--bottom o-page-header o-page-header--recurly'}>
             <section className={'o-container o-container--wide u-pt-ultra u-pb-large'}>
               <header className={'o-grid o-grid--wide'}>
                 <div className={'o-grid__col u-1/2'}>
@@ -39,12 +39,12 @@ export default class extends React.Component {
             </section>
           </div>
 
-          <section className={'o-container u-pt-ultra u-pb-mega'}>
+          <section className={'o-container u-pv-ultra u-mt-mega'}>
             <div className={'o-grid'}>
-              <div className={'o-grid__col u-1/1 u-1/4@sm'}>
-                <h2 className={'o-type-display-1 u-color-headline'}>The Challenge</h2>
+              <div className={'o-grid__col u-1/1 u-1/3@sm'}>
+                <h2 className={'o-type-display-2 u-color-headline'}>The Challenge</h2>
               </div>
-              <div className={'o-grid__col u-1/1 u-3/4@sm o-page-content'}>
+              <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
                   Recurly app, a robust recurring billing solution, felt dated
                   at the aesthetic level. Myself and 3 other designers decided
@@ -84,7 +84,7 @@ export default class extends React.Component {
           <section className={'o-container o-container--narrow u-pt-ultra u-pb-medium'}>
             <div className={'o-grid'}>
               <div className={'o-grid__col u-1/1 o-page-content'}>
-                <h2 className={'o-type-display-1 u-color-headline u-mb-small'}>
+                <h2 className={'o-type-display-2 u-color-headline u-mb-small'}>
                   The Approach
                 </h2>
 
@@ -199,8 +199,8 @@ export default class extends React.Component {
           <section className={'o-container o-container--narrow u-pt-ultra u-pb-medium'}>
             <div className={'o-grid'}>
               <div className={'o-grid__col u-1/1 o-page-content'}>
-                <h2 className={'o-type-display-1 u-color-headline u-mb-small'}>
-                  Takeaways
+                <h2 className={'o-type-display-2 u-color-headline u-mb-small'}>
+                  The Takeaways
                 </h2>
 
                 <h3 className={'o-type-headline u-color-headline'}>

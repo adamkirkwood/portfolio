@@ -1,7 +1,5 @@
 .o-page-header {
-  background: #6a3093;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
   .o-type-promo {
     color: $oc-gray-0;
@@ -9,5 +7,29 @@
 
   .o-type-lead {
     color: $oc-gray-2;
+  }
+
+  &--recurly {
+    background: #6a3093;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  &--tango {
+    background: #EF5231;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C83F23, #EF5231);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C83F23, #EF5231); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  &--tango-out {
+    background: #00ECDB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00D5B5, #00ECDB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00D5B5, #00ECDB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  &--sketchpacks {
+    background: #673AB7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 }

@@ -14,17 +14,17 @@ export default class extends React.Component {
   render () {
     return (
       <ProjectLayout title={'Tango Out'}>
-        <MainNavigation inverse />
+        <MainNavigation />
 
         <article className={'l-case-study'}>
 
-          <div className={'u-angled--bottom o-page-header'}>
+          <div className={'u-angled--bottom o-page-header o-page-header--tango-out'}>
             <section className={'o-container o-container--wide u-pt-ultra u-pb-large'}>
               <header className={'o-grid o-grid--wide'}>
                 <div className={'o-grid__col u-1/2'}>
-                  <h1 className={'o-type-promo u-mb-medium'}>Tango Out</h1>
-                  <p className={'o-type-lead u-mb-medium'}>
-                    A simplified calling experience was only the beginning
+                  <h1 className={'o-type-promo u-mb-medium u-color-gray-9'}>Tango Out</h1>
+                  <p className={'o-type-lead u-mb-medium u-color-gray-8'}>
+                    Make phone calls around the world. For free.
                   </p>
                 </div>
 
@@ -39,22 +39,22 @@ export default class extends React.Component {
             </section>
           </div>
 
-          <section className={'o-container u-pt-ultra u-pb-mega'}>
-            <div className={'o-grid'}>
-              <div className={'o-grid__col u-1/1 u-1/4@sm'}>
-                <h2 className={'o-type-display-1 u-color-headline'}>The Challenge</h2>
+          <section className={'o-container u-pv-ultra u-mt-mega'}>
+            <div className={'o-grid o-grid--wide'}>
+              <div className={'o-grid__col u-1/1 u-1/3@sm'}>
+                <h2 className={'o-type-display-2 u-color-headline'}>The Challenge</h2>
               </div>
-              <div className={'o-grid__col u-1/1 u-3/4@sm o-page-content'}>
+              <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  I led the UX strategy and visual design for Tango Out. A feature
-                  used by millions of people to make phone calls around the world
-                  on both Android and iOS.
+                  Tango wanted to round&ndash;out the calling experience that brought
+                  it much success during it&apos; initial launch by bringing in
+                  free &amp; paid voice calling.
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  I simplified the calling experience by focusing on meaningful
-                  core interactions that create value. A clear and usable
-                  experience was the icing on the cake.
+                  I led the product strategy and visual design for Tango Out. A feature
+                  used by millions of people to make phone calls around the world
+                  on both Android and iOS.
                 </p>
               </div>
             </div>
@@ -65,11 +65,11 @@ export default class extends React.Component {
               <div className={'o-grid o-grid--wide o-grid--cards'}>
 
                 <div className={'o-grid__col u-1/1 u-mb-large u-text-center@sm o-page-content'}>
-                  <h2 className={'o-type-title u-color-headline u-mb-small'}>The Approach</h2>
+                  <h2 className={'o-type-display-2 u-color-headline u-mb-small'}>The Approach</h2>
 
                   <p className={'o-type-body-2 u-color-body-1 u-push-1/4@sm u-pull-1/4@sm'}>
-                    We did just enough research to have a good understanding of
-                    habits and motivations. We synthesized learnings from recent
+                    I did just enough research to have a solid understanding of
+                    habits and motivations. I synthesized learnings from recent
                     user and market studies to drive our planning phase. Below
                     are the key insights that motivated the initial version
                     of Tango Out's relaunch:
@@ -163,7 +163,28 @@ export default class extends React.Component {
           </div>
 
 
-          <section className={'o-container o-container--narrow u-pt-ultra u-pb-medium'}>
+          <section className={'o-container u-pt-ultra u-pb-mega'}>
+            <div className={'o-grid o-grid--wide'}>
+              <div className={'o-grid__col u-1/1 u-1/3@sm'}>
+                <h2 className={'o-type-display-2 u-color-headline'}>The Outcome</h2>
+              </div>
+              <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  After 4 months of rapid iterations on both the design and the builds,
+                  the app is now at 4 and a half stars in Apple&apos;s app store.
+                </p>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  I simplified the calling experience by focusing on meaningful
+                  core interactions that create value. A clear and usable
+                  experience was the icing on the cake.
+                </p>
+              </div>
+            </div>
+          </section>
+
+
+          <section className={'o-container o-container--narrow u-pt-large u-pb-medium'}>
             <div className={'o-grid'}>
               <div className={'o-grid__col u-1/1 o-page-content'}>
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>
@@ -274,8 +295,8 @@ export default class extends React.Component {
 
           <section className={'o-container u-text-center'}>
             <img
-              src="/static/work/tango-out/missed-call-just-now.jpg"
-              width="320"
+              src="/static/work/tango-out/timestamps@2x.jpg"
+              width="720"
               className={'u-mb-large'}
             />
           </section>
@@ -332,13 +353,12 @@ export default class extends React.Component {
             />
           </section>
 
-          <section className={'o-container o-container--narrow u-pt-ultra u-pb-medium'}>
-            <div className={'o-grid'}>
-              <div className={'o-grid__col u-1/1 o-page-content'}>
-                <h2 className={'o-type-title u-color-headline u-mb-small'}>
-                  Takeaways
-                </h2>
-
+          <section className={'o-container u-pt-ultra u-pb-mega'}>
+            <div className={'o-grid o-grid--wide'}>
+              <div className={'o-grid__col u-1/1 u-1/3@sm'}>
+                <h2 className={'o-type-display-2 u-color-headline'}>The Takeaways</h2>
+              </div>
+              <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
                 <h3 className={'o-type-headline u-color-headline'}>
                   Quid pro quo
                 </h3>

@@ -63,7 +63,7 @@ export default class extends React.Component {
                   My challenge was to provide Sketch Users a service to manage
                   and sync their plugins across machines and teams. This
                   service would be built on top of a system designed to help
-                  Sketch Developers and distribute their plugins at scale.
+                  Sketch Developers distribute their plugins at scale.
                 </p>
               </div>
             </div>
@@ -145,17 +145,12 @@ export default class extends React.Component {
               <div className={'o-grid o-grid--wide o-grid--cards'}>
 
                 <div className={'o-grid__col o-grid--equal-height u-1/1 u-mb-large u-text-center@sm o-page-content'}>
-                  <h2 className={'o-type-title u-color-headline u-mb-small'}>Job Stories</h2>
+                  <h2 className={'o-type-title u-color-headline u-mb-small'}>Focus on user outcomes</h2>
 
                   <p className={'o-type-body-2 u-color-body-1 u-push-1/4@sm u-pull-1/4@sm'}>
-                    Like well&ndash;written problem statements, job stories are
-                    not prescriptive of their implementation. Instead, they focus on
-                    triggers or situations, motivations, and desired outcomes.
-                  </p>
-
-                  <p className={'o-type-body-2 u-color-body-1 u-push-1/4@sm u-pull-1/4@sm'}>
-                    I used job stories to align the experience over time. This
-                    allowed me to iterate on solutions with every release.
+                    Continuous delivery is the foundation to being able to iterate
+                    and validate assumptions. I used Job Stories to help align
+                    the solution with the problem over time with each release.
                   </p>
                 </div>
 
@@ -283,17 +278,14 @@ export default class extends React.Component {
 
               <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  I believe design is a continuous conversation over time. Where
-                  with each iteration, you learn more about the problem and provides
-                  the ability to make adjustment. This meant that finding the
-                  problem&ndash;solution&ndash;fit would become more concrete with
-                  every piece of feedback, bug report, and conversation.
-                </p>
-
-                <p className={'o-type-body-2 u-color-body-1'}>
                   The product roadmap was iterative and motivated by the community.
                   Their vision consisted of four key experiences: discovery,
                   management, sharing, and syncing.
+                </p>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  Feedback from the community helped shape how the app solved
+                  their problems.
                 </p>
               </div>
             </div>

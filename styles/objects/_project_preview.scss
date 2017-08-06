@@ -1,0 +1,41 @@
+$transition: all .3s ease-in;
+
+.o-project-preview {
+  position: relative;
+
+  .o-project-preview__info {
+    position: absolute;
+    top: 6rem;
+    left: 3.2rem;
+  }
+
+  .o-overlay {
+    z-index: 10;
+  }
+
+  a {
+    text-decoration: none;
+    display: block;
+  }
+
+  p {
+    position: relative;
+    transform: translateY(-5px);
+
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    transition: $transition;
+
+    color: rgba(255,255,255,0);
+  }
+
+  a:hover {
+
+    p {
+      transform: translateY(0);
+      color: rgba($oc-gray-1,1);
+    }
+
+  }
+}

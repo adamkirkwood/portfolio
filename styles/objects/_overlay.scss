@@ -1,0 +1,22 @@
+$transition: all .5s ease-out;
+
+.o-overlay {
+  min-width: 100%;
+  min-height: 100%;
+
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
+  background-color: rgba(0,0,0,0);
+
+
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}

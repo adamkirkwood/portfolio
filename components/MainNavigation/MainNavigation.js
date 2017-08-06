@@ -1,3 +1,5 @@
+import { Link } from '../../routes'
+
 export default ({ inverse }) => {
   const cssClassNames = inverse
     ? 'o-main-navigation o-main-navigation--inverse u-ph-medium u-pv-medium'
@@ -7,7 +9,11 @@ export default ({ inverse }) => {
     <div className={cssClassNames}>
 
         <div className={''}>
-          <strong>Adam Kirkwood</strong>
+          <Link route='frontpage'>
+            <a>
+              <strong>Adam Kirkwood</strong>
+            </a>
+          </Link>
         </div>
 
         <nav className={''}>

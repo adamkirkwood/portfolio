@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Typekit from 'react-typekit'
 
-import { Link } from '../routes'
+import { Link } from '../../routes'
 import axios from 'axios'
 
 import CSSTag from 'components/CSSTag'
@@ -44,26 +44,19 @@ export default class extends React.Component {
 
         <div className={'o-page-header'}>
           <section className={'c-cover'}>
-            <div className={'o-container u-pt-ultra u-pb-large'}>
+            <div className={'o-container u-pv-ultra'}>
               <div className={'o-grid'}>
                 <div className="o-grid__col u-1/1 u-2/3@sm">
-                  <h1 className={'o-type-display-2 u-mb-small u-weight-normal'}>
-                    👋🏽 Hello. I&apos;m Adam Kirkwood, <br />a digital product designer.
+                  <h1 className={'o-type-promo u-color-gray-9 u-mb-small u-weight-normal'}>
+                    Portfolio
                   </h1>
 
-                  <p className={'o-type-headline u-color-body-2 u-mb-small'}>
-                    Currently I work as a product designer at IBM.
-                  </p>
-
-                  <p className={'o-type-headline u-color-body-2 u-mb-small'}>
-                    Co&ndash;founder of Sketchpacks, a macOS menu bar app that
-                    helps Sketch users discover and manage plugins.
-                  </p>
-
-                  <p className={'o-type-headline u-color-body-2 u-mb-small'}>
-                    Previously, I&apos;ve led product design and strategy
-                    for small startups and enterprise&ndash;level companies
-                    such as Tango, Recurly, Viralheat, and Mochimedia.
+                  <p className={'o-type-body-2 u-color-body-2 o-scored'}>
+                    I&apos;ve worked on projects of all sizes &mdash; from
+                    Tango&apos;s iOS and Android mobile clients serving 330
+                    million users, to features across Recurly's mission&ndash;critical
+                    subscription billing platform that processes millions of
+                    dollars every day.
                   </p>
                 </div>
               </div>
@@ -72,19 +65,13 @@ export default class extends React.Component {
         </div>
 
 
-        <section className={'c-cover u-mt-mega u-mb-large'}>
+        <section className={'c-cover u-mb-large'}>
           <div className={'o-container'}>
-            <div className={'o-grid u-mb-large'}>
-              <div className={'o-grid__col u-1/1'}>
-                <h2 className={'o-type-display-2 u-color-headline'}>Recent Work</h2>
-              </div>
-            </div>
-
             <div className={'o-grid o-grid--nospace'}>
               <div className={'o-grid__col u-1/1 u-1/2@sm o-project-preview'}>
                 <ProjectThumbnail
                   title={'Sketchpacks'}
-                  logline={'Sketch plugin management'}
+                  logline={'macOS app'}
                   slug={'sketchpacks'}
                   path={'work/sketchpacks'}
                 />
@@ -93,7 +80,7 @@ export default class extends React.Component {
               <div className={'o-grid__col u-1/1 u-1/2@sm o-project-preview'}>
                 <ProjectThumbnail
                   title={'Tango Video Calling'}
-                  logline={'Video Calling for iOS and Android'}
+                  logline={'Cross-platform video calling'}
                   slug={'tango-video-calling'}
                   path={'work/tango-video-calling'}
                 />
@@ -102,7 +89,7 @@ export default class extends React.Component {
               <div className={'o-grid__col u-1/1 u-1/2@sm o-project-preview'}>
                 <ProjectThumbnail
                   title={'Tango Out'}
-                  logline={'Voice Calling for iOS and Android'}
+                  logline={'Cross-platform voice calling'}
                   slug={'tango-out'}
                   path={'work/tango-out'}
                 />
@@ -111,7 +98,7 @@ export default class extends React.Component {
               <div className={'o-grid__col u-1/1 u-1/2@sm o-project-preview'}>
                 <ProjectThumbnail
                   title={'Recurly'}
-                  logline={'Enterprise-class subscription billing platform'}
+                  logline={'Subscription billing management'}
                   slug={'recurly'}
                   path={'work/recurly'}
                 />

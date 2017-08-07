@@ -19,11 +19,13 @@ export default ({ inverse }) => {
         <nav className={''}>
           <ul className={'o-list o-list--inline o-list--wide'}>
             <li className={'o-list__item'}>
-              <a href="/process">Process</a>
+              <a href="/about">About</a>
             </li>
 
             <li className={'o-list__item'}>
-              <a href="/about">About</a>
+              <Link route={'work'}>
+                <a>Portfolio</a>
+              </Link>
             </li>
 
             <li className={'o-list__item'}>

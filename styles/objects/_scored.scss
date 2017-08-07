@@ -1,0 +1,19 @@
+.o-scored {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    bottom: 0;
+
+    transform: translateY(1em);
+
+    width: 64px;
+    height: 5px;
+
+    background: $oc-indigo-6;
+
+    content: "";
+
+    // position: absolute;
+  }
+}

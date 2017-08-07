@@ -49,7 +49,7 @@ export default class extends React.Component {
           <section className={'o-container u-pv-ultra u-mt-mega'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm'}>
-                <h2 className={'o-type-display-2 u-color-headline'}>The Challenge</h2>
+                <h2 className={'o-type-display-2 u-color-headline o-scored'}>The Challenge</h2>
               </div>
               <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
@@ -81,7 +81,7 @@ export default class extends React.Component {
           <section className={'o-container u-pt-mega u-pb-large u-angled--top'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm'}>
-                <h2 className={'o-type-display-2 u-color-headline'}>The <br/>Approach</h2>
+                <h2 className={'o-type-display-2 u-color-headline o-scored'}>The Approach</h2>
               </div>
               <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
@@ -273,7 +273,7 @@ export default class extends React.Component {
           <section className={'o-container u-pt-mega u-pb-large u-angled--top'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm'}>
-                <h2 className={'o-type-display-2 u-color-headline'}>The Strategy</h2>
+                <h2 className={'o-type-display-2 u-color-headline o-scored'}>The Strategy</h2>
               </div>
 
               <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
@@ -384,7 +384,7 @@ export default class extends React.Component {
           <section className={'o-container u-pt-ultra u-pb-large u-angled--top'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm'}>
-                <h2 className={'o-type-display-2 u-color-headline'}>The Impact</h2>
+                <h2 className={'o-type-display-2 u-color-headline o-scored'}>The Impact</h2>
               </div>
 
               <div className={'o-grid__col u-1/1 u-2/3@sm'}>
@@ -398,7 +398,7 @@ export default class extends React.Component {
           </section>
 
           <div className={'u-bgcolor-gray-9'}>
-            <section className={'o-container o-container--wide u-pv-large u-mv-large'}>
+            <section className={'o-container o-container--wide u-pv-large u-mt-large'}>
               <div className={'o-grid o-grid--wide'}>
                 <div className={'o-grid__col u-1/1 u-1/4@sm'}>
                   <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0 u-block'}>
@@ -439,35 +439,28 @@ export default class extends React.Component {
             </section>
           </div>
 
+          <div style={{ backgroundImage: "url('/static/work/sketchpacks/diamond_background.svg')", backgroundColor: "#512DA8" }}>
+            <section className={'o-container u-pv-mega o-container--centered'}>
+              <div className={'o-grid'}>
+                <div className={'o-grid__col'}>
+                  <img
+                    src="/static/work/sketchpacks/app@2x.png"
+                    width="720"
+                    className={'u-mb-large'}
+                  />
 
-          <blockquote className={'o-container o-container--wide u-pv-large c-quote u-1/2 u-ph-large'}>
-            <p className={'o-type-big-quote u-weight-light o-type-italic u-color-quote u-mb-small'}>
-              &ldquo;Goodbye sketchtoolbox hello @sketchpacks! Manage your Sketch plugins from the menu bar!&rdquo;
-            </p>
-            <strong className={'u-uppercase o-type-small u-color-quote'}>
-              @case23
-            </strong>
-          </blockquote>
+                  <h2 className={'o-type-display-1 u-color-gray-0 u-mb-large'}>
+                    Download Sketchpacks for free
+                  </h2>
 
-          <section className={'o-container u-pv-mega o-container--centered'}>
-            <div className={'o-grid'}>
-              <div className={'o-grid__col'}>
-                <img
-                  src="/static/work/sketchpacks/app@2x.png"
-                  width="720"
-                  className={'u-mb-large'}
-                />
-
-                <h2 className={'o-type-display-1 u-color-headline u-mb-large'}>
-                  Download Sketchpacks for free
-                </h2>
-
-                <a href={'https://sketchpacks.com/'} className={'c-button c-button--primary'}>
-                  Download Sketchpacks
-                </a>
+                  <a href={'https://sketchpacks.com/'} className={'c-button c-button--primary'}>
+                    Download Sketchpacks
+                  </a>
+                </div>
               </div>
-            </div>
-          </section>
+            </section>
+          </div>
+
         </article>
 
       </ProjectLayout>

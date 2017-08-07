@@ -5,7 +5,7 @@ export default ({ title, logline, path, slug }) => (
     <a>
       <div className={'o-overlay'}>
         <div className={'o-project-preview__info'}>
-          <h3 className={'u-color-gray-0 o-type-title u-mb-xsmall'}>{ title }</h3>
+          <h3 className={'u-color-gray-0 o-type-display-1 u-mb-xsmall'}>{ title }</h3>
           <p>{ logline }</p>
         </div>
       </div>

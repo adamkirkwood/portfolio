@@ -2,7 +2,7 @@ import { Link } from '../../routes'
 
 export default ({ inverse }) => {
   const cssClassNames = inverse
-    ? 'o-main-navigation o-main-navigation--inverse u-ph-medium u-pv-medium'
+    ? 'o-main-navigation o-main-navigation--inverse u-ph-large u-pv-medium'
     : 'o-main-navigation u-ph-large u-pv-medium'
 
   return (

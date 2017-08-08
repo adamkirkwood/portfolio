@@ -15,7 +15,7 @@
     "rebuild": "rm -rf ./node_modules && yarn"
   },
   "dependencies": {
-    "babel-runtime": "^6.23.0",
+    "axios": "^0.16.2",
     "iotacss": "^1.1.1",
     "iotacss-components-button": "^1.0.3",
     "next": "beta",
@@ -27,9 +27,11 @@
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
+    "babel-plugin-inline-react-svg": "^0.4.0",
     "babel-plugin-module-resolver": "^2.7.1",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-plugin-wrap-in-js": "^1.1.1",
+    "babel-runtime": "^6.23.0",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
     "node-sass": "^4.5.3",

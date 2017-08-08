@@ -284,7 +284,7 @@ export default class extends React.Component {
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Feedback from the community helped shape how the app solved
+                  Feedback from the community helped evolve the solution to solve
                   their problems.
                 </p>
               </div>

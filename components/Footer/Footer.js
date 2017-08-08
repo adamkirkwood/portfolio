@@ -20,7 +20,9 @@ export default () => (
           <h5 className={'o-type-small u-uppercase'}>Let&apos;s Connect</h5>
 
           <div className={'o-level'}>
-
+            <p className={'u-mt-small o-type-footer'}>
+              <a href="https://dribbbble.com/xyentific">Dribbble</a> &middot; <a href="https://github.com/adamkirkwood">Github</a> &middot; <a href="https://medium.com/@adamkirkwood">Medium</a> &middot; <a href="https://twitter.com/adamkirkwood">Twitter</a> &middot; <a href="https://linkedin.com/in/adamkirkwood">Linkedin</a>
+            </p>
           </div>
         </div>
     </div>

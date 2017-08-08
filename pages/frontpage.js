@@ -56,7 +56,7 @@ export default class extends React.Component {
                   </p>
 
                   <p className={'o-type-headline u-color-body-2 u-mb-small'}>
-                    Co&ndash;founder of Sketchpacks, a macOS menu bar app that
+                    Creator of Sketchpacks, a macOS menu bar app that
                     helps Sketch users discover and manage plugins.
                   </p>
 

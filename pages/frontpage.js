@@ -48,7 +48,7 @@ export default class extends React.Component {
               <div className={'o-grid'}>
                 <div className="o-grid__col u-1/1 u-2/3@sm">
                   <h1 className={'o-type-display-2 u-mb-small u-weight-normal'}>
-                    👋🏽 Hello. I&apos;m Adam Kirkwood, <br />a digital product designer.
+                    👋🏽 I&apos;m Adam Kirkwood, <br />a digital product designer.
                   </h1>
 
                   <p className={'o-type-headline u-color-body-2 u-mb-small'}>
@@ -77,6 +77,9 @@ export default class extends React.Component {
             <div className={'o-grid u-mb-large'}>
               <div className={'o-grid__col u-1/1'}>
                 <h2 className={'o-type-display-2 u-color-headline'}>Recent Work</h2>
+                  <p className={'o-type-body-2 u-color-body-1'}>
+                    Here&apos;s a sampling of work I had the pleasure of working on
+                  </p>
               </div>
             </div>
 
@@ -130,7 +133,7 @@ export default class extends React.Component {
               </div>
               <div className={'o-grid__col u-1/1 o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Sometimes I post work in progress to share with everyone on Dribbble.
+                  I sometimes share sneak peaks behind my design process on <a href="https://dribbble.com/xyentific" target="_blank">Dribbble</a>
                 </p>
               </div>
             </div>

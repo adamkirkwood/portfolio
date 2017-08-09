@@ -37,9 +37,9 @@ export default class extends React.Component {
 
                 <div className={'o-grid__col u-1/2'}>
                   <img
-                    src="/static/work/sketchpacks/app@2x.png"
-                    width="370"
-                    className={'u-mb-large'}
+                    src="/static/work/sketchpacks/icon@2x.png"
+                    width="256"
+                    className={'u-mb-large u-float-right'}
                   />
                 </div>
               </header>
@@ -211,50 +211,56 @@ export default class extends React.Component {
             </section>
           </div>
 
-          <section className={'o-container o-container--wide u-pt-mega'}>
+          <section className={'o-container o-container--wide u-pt-large'}>
             <div className={'o-grid o-grid--wide'}>
-              <div className={'o-grid__col u-1/1 u-1/3@sm o-page-content'}>
-                <h2 className={'o-type-title u-color-headline u-mb-small'}>Uncover insights and opportunities</h2>
+
+              <div className={'o-grid__col o-grid--equal-height u-1/1 u-mb-mega u-text-center@sm o-page-content'}>
+                <h2 className={'o-type-display-1 u-color-headline u-mb-small'}>Analyze &amp; Synthesize</h2>
+              </div>
+
+              <div className={'o-grid__col u-1/3@sm o-page-content'}>
+                <h2 className={'o-type-title u-color-headline u-mb-small'}>Closing the (service) loop</h2>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Service blueprints are a great method for documenting and analyzing
-                  the user&apos;s journey within an ecosystem.
+                  Most services are designed to support repeat usage. This experience
+                  was no different for Developers and Users.
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  The map surfaced
-                  points of friction and areas of opportunity that could be solved
-                  with a well&ndash;designed system in place.
+                  Withthis in mind, I set out to craft systems within the Sketchpacks ecosystem
+                  that would support the various service loops Developers and Users would experience.
                 </p>
               </div>
 
-              <div className={'o-grid__col u-1/1 u-2/3@sm'}>
-                <img src='https://placeimg.com/640/480/tech?t=1500010858937' />
+              <div className={'o-grid__col u-2/3@sm'}>
+                <img src='/static/work/sketchpacks/service-loops.png' />
               </div>
             </div>
           </section>
 
           <section className={'o-container o-container--wide u-pt-mega u-pb-mega'}>
-            <div className={'o-grid o-grid--rev'}>
-              <div className={'o-grid__col u-1/3@sm o-page-content'}>
-                <h2 className={'o-type-title u-color-headline u-mb-small'}>Map the ecosystem and its forces</h2>
+            <div className={'o-grid o-grid--rev o-grid--wide'}>
+              <div className={'o-grid__col u-1/1 u-1/3@sm o-page-content'}>
+                <h2 className={'o-type-title u-color-headline u-mb-small'}>Uncover insights and opportunities</h2>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  I reduced each system to reveal their essential elements
-                  and their interconnections.
+                  Service blueprints are a great method for documenting and analyzing
+                  the user&apos;s As&ndash;Is situation within an ecosystem.
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  With these insights, I designed the product architecture
-                  to support the product&apos;s mission and vision.
+                  Once I analyzed the As&ndash;Is situation of the current services
+                  available to developers and users, I then crafted a To&ndash;Be
+                  service blueprint.
                 </p>
               </div>
 
-              <div className={'o-grid__col u-2/3@sm'}>
-                <img src='https://placeimg.com/640/480/tech?t=1500010858937' />
+              <div className={'o-grid__col u-1/1 u-2/3@sm'}>
+                <img src='/static/work/sketchpacks/service-blueprint.png' />
               </div>
             </div>
           </section>
+
 
           <div className={'u-bgcolor-gray-0'}>
             <blockquote className={'o-container u-pv-large c-quote u-1/2 u-ph-large'}>
@@ -310,14 +316,16 @@ export default class extends React.Component {
               </div>
 
               <div className={'o-grid__col u-1/1 u-2/3@sm'}>
-                <img src='https://placeimg.com/640/480/tech?t=1500010858937' />
+                <img
+                  src='/static/work/sketchpacks/app.png'
+                />
               </div>
             </div>
           </section>
 
           <section className={'o-container o-container--wide u-pt-mega'}>
             <div className={'o-grid o-grid--wide o-grid--rev'}>
-              <div className={'o-grid__col u-1/1 u-1/2@sm o-page-content'}>
+              <div className={'o-grid__col u-1/1 u-1/3@sm o-page-content'}>
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>Management</h2>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
@@ -332,7 +340,7 @@ export default class extends React.Component {
                 </p>
               </div>
 
-              <div className={'o-grid__col u-1/1 u-1/2@sm'}>
+              <div className={'o-grid__col u-1/1 u-2/3@sm'}>
                 <img
                   src='/static/work/sketchpacks/version-ranges-and-locks@2x.png'
                 />

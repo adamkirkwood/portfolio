@@ -55,7 +55,7 @@ export default class extends React.Component {
                     I&apos;ve worked on projects of all sizes &mdash; from
                     Tango&apos;s iOS and Android mobile clients serving 330
                     million users, to features across Recurly's mission&ndash;critical
-                    subscription billing platform that processes millions of
+                    subscription management platform that processes millions of
                     dollars every day.
                   </p>
                 </div>

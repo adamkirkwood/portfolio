@@ -24,18 +24,18 @@ export default class extends React.Component {
           <div className={'u-angled--bottom o-page-header o-page-header--sketchpacks'}>
             <section className={'o-container o-container--wide u-pt-ultra u-pb-large'}>
               <header className={'o-grid o-grid--wide'}>
-                <div className={'o-grid__col u-1/2'}>
+                <div className={'o-grid__col u-1/1 u-1/2@sm'}>
                   <h1 className={'o-type-promo u-mb-medium'}>Sketchpacks</h1>
                   <p className={'o-type-lead u-mb-medium'}>
-                    A macOS app that empowers users to manage and sync
-                    their Sketch plugins across machines and teams.
+                    Designing for simple Sketch plugin management and syncing across machines
+                    and teams.
                   </p>
                   <a href={'https://sketchpacks.com/'} className={'c-button c-button--primary'}>
                     Download Sketchpacks
                   </a>
                 </div>
 
-                <div className={'o-grid__col u-1/2'}>
+                <div className={'o-grid__col u-1/1 u-1/2@sm u-text-center u-text-right@sm'}>
                   <img
                     src="/static/work/sketchpacks/icon@2x.png"
                     width="256"
@@ -148,9 +148,10 @@ export default class extends React.Component {
                   <h2 className={'o-type-title u-color-headline u-mb-small'}>Focus on user outcomes</h2>
 
                   <p className={'o-type-body-2 u-color-body-1 u-push-1/4@sm u-pull-1/4@sm'}>
-                    Continuous delivery is the foundation to being able to iterate
-                    and validate assumptions. I used Job Stories to help align
-                    the solution with the problem over time with each release.
+                    Job Stories were defined to help align the solution with the
+                    problem over time with each release. Continuous delivery
+                    played a key tact to being able to iterate and validate
+                    assumptions quickly.
                   </p>
                 </div>
 
@@ -290,7 +291,7 @@ export default class extends React.Component {
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Feedback from the community helped evolve the solution to solve
+                  Feedback from the community helped shape how Sketchpacks solved
                   their problems.
                 </p>
               </div>
@@ -309,9 +310,10 @@ export default class extends React.Component {
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  The desktop and web clients leverage the API providing full&ndash;text
-                  search, surfacing plugins indexed by name, description, and
-                  the contents of their README.
+                  People engage with the User Service Loop once they search and
+                  install a plugin through the desktop app. The app provides
+                  full&ndash;text search which surfaces plugins indexed by name,
+                  description, and the contents of their README.
                 </p>
               </div>
 
@@ -329,14 +331,13 @@ export default class extends React.Component {
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>Management</h2>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Prior to Sketch 45, Users had to be proactive with keeping
-                  their plugins up&ndash;to&ndash;date.
+                  Semantic Versioning provided users the capability of flexible
+                  and consistent version locking and updating strategies
+                  without the burden.
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  The desktop client provides four different plugin update strategies
-                  per plugin. Sketchpacks periodically checks for plugin updates
-                  and applies them accordingly in the background while you work.
+                  Set your preferred strategy and forget it.
                 </p>
               </div>
 
@@ -360,8 +361,8 @@ export default class extends React.Component {
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  The desktop client supports both importing and exporting
-                  the user&apos;s plugin library.
+                  People share their essential plugins consistently and accurately
+                  using a sketchpack with defined install and update strategies.
                 </p>
               </div>
 
@@ -374,12 +375,16 @@ export default class extends React.Component {
           <section className={'o-container o-container--wide u-pt-mega'}>
             <div className={'o-grid o-grid--rev'}>
               <div className={'o-grid__col u-1/1 u-1/2@sm o-page-content'}>
-                <span className={'c-label u-bgcolor-tango o-type-small u-uppercase'}>Coming Soon</span>
-                <h2 className={'o-type-title u-color-headline u-mb-small'}>Syncing</h2>
+                <h2 className={'o-type-title u-color-headline u-mb-small'}>Multi&ndash;machine Syncing</h2>
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  Simply keep a sketchpack containing your essential plugins within
+                  a sync&apos;d directory and let the desktop client do the rest.
+                </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Designers and teams will have the ability to sync plugins
-                  across machines in near real&ndash;time.
+                  Designers and teams sync their plugins across machines in
+                  real&ndash;time using Dropbox, Google Drive, Box, or any other
+                  file syncing desktop app.
                 </p>
               </div>
 
@@ -413,7 +418,7 @@ export default class extends React.Component {
                     App Downloads
                   </span>
                   <p className={'o-type-promo u-mt-small u-weight-thin u-color-gray-0'}>
-                    22k
+                    28k
                   </p>
                 </div>
 
@@ -422,7 +427,7 @@ export default class extends React.Component {
                     Plugin Installs
                   </span>
                   <p className={'o-type-promo u-mt-small u-weight-thin u-color-gray-0'}>
-                    37k
+                    115k
                   </p>
                 </div>
 

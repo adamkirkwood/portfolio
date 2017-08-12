@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Typekit from 'react-typekit'
 
+import projectsData from '../data/work.json'
 import { Link } from '../routes'
 import axios from 'axios'
 
@@ -19,12 +20,10 @@ export default class extends React.Component {
 
     return {
       data: {
+        projects: projectsData,
         dribbble: dribbble.data
       }
     }
-
-
-    return {}
   }
 
   render () {
@@ -56,8 +55,8 @@ export default class extends React.Component {
                   </p>
 
                   <p className={'o-type-headline u-color-body-2 u-mb-small'}>
-                    Creator of Sketchpacks, a macOS menu bar app that
-                    helps Sketch users discover and manage plugins.
+                    I&apos;m the creator of Sketchpacks&mdash;a nifty macOS app that
+                    helps you manage and sync Sketch plugins across machines and teams.
                   </p>
 
                   <p className={'o-type-headline u-color-body-2 u-mb-small'}>
@@ -84,41 +83,18 @@ export default class extends React.Component {
             </div>
 
             <div className={'o-grid o-grid--nospace'}>
-              <div className={'o-grid__col u-1/1 u-1/2@sm o-project-preview'}>
-                <ProjectThumbnail
-                  title={'Sketchpacks'}
-                  logline={'Sketch plugin management'}
-                  slug={'sketchpacks'}
-                  path={'work/sketchpacks'}
-                />
-              </div>
-
-              <div className={'o-grid__col u-1/1 u-1/2@sm o-project-preview'}>
-                <ProjectThumbnail
-                  title={'Tango Video Calling'}
-                  logline={'Video Calling for iOS and Android'}
-                  slug={'tango-video-calling'}
-                  path={'work/tango-video-calling'}
-                />
-              </div>
-
-              <div className={'o-grid__col u-1/1 u-1/2@sm o-project-preview'}>
-                <ProjectThumbnail
-                  title={'Tango Out'}
-                  logline={'Voice Calling for iOS and Android'}
-                  slug={'tango-out'}
-                  path={'work/tango-out'}
-                />
-              </div>
-
-              <div className={'o-grid__col u-1/1 u-1/2@sm o-project-preview'}>
-                <ProjectThumbnail
-                  title={'Recurly'}
-                  logline={'Enterprise-class subscription billing platform'}
-                  slug={'recurly'}
-                  path={'work/recurly'}
-                />
-              </div>
+              { Object.keys(this.props.data.projects).map((project,idx) => {
+                return (
+                  <div className={'o-grid__col u-1/1 u-1/2@sm o-project-preview'}>
+                    <ProjectThumbnail
+                      title={ this.props.data.projects[project].title }
+                      logline={ this.props.data.projects[project].logline }
+                      slug={ project }
+                      path={ `work/${project}`}
+                      />
+                  </div>
+                )
+              })}
             </div>
 
           </div>

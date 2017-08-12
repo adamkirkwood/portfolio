@@ -1,0 +1,25 @@
+{
+  "sketchpacks": {
+    "title": "Sketchpacks",
+    "logline": "Sketch plugin management",
+    "summary": "Designing a service to provide simple Sketch plugin management and syncing across machines and teams."
+  },
+
+  "tango-video-calling": {
+    "title": "Tango Video Calling",
+    "logline": "Video calling for iOS &amp; Android",
+    "summary": "Expanding the cross&ndash;platform video calling experience used by millions of friends &amp; family around the world"
+  },
+
+  "tango-out": {
+    "title": "Tango Out",
+    "logline": "Voice calling for iOS &amp; Android",
+    "summary": "Make phone calls around the world. For free."
+  },
+
+  "recurly": {
+    "title": "Recurly",
+    "logline": "Enterprise–class subscription management platform",
+    "summary": "Enterprise–class subscription management platform"
+  }
+}

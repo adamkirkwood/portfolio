@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Typekit from 'react-typekit'
 
+import projectsData from '../../data/work.json'
 import { Link } from '../../routes'
 import axios from 'axios'
 
@@ -19,6 +20,7 @@ export default class extends React.Component {
 
     return {
       data: {
+        projects: projectsData,
         dribbble: dribbble.data
       }
     }
@@ -68,41 +70,18 @@ export default class extends React.Component {
         <section className={'c-cover u-mb-large'}>
           <div className={'o-container'}>
             <div className={'o-grid o-grid--nospace'}>
-              <div className={'o-grid__col u-1/1 u-1/2@sm o-project-preview'}>
-                <ProjectThumbnail
-                  title={'Sketchpacks'}
-                  logline={'macOS app'}
-                  slug={'sketchpacks'}
-                  path={'work/sketchpacks'}
-                />
-              </div>
-
-              <div className={'o-grid__col u-1/1 u-1/2@sm o-project-preview'}>
-                <ProjectThumbnail
-                  title={'Tango Video Calling'}
-                  logline={'Cross-platform video calling'}
-                  slug={'tango-video-calling'}
-                  path={'work/tango-video-calling'}
-                />
-              </div>
-
-              <div className={'o-grid__col u-1/1 u-1/2@sm o-project-preview'}>
-                <ProjectThumbnail
-                  title={'Tango Out'}
-                  logline={'Cross-platform voice calling'}
-                  slug={'tango-out'}
-                  path={'work/tango-out'}
-                />
-              </div>
-
-              <div className={'o-grid__col u-1/1 u-1/2@sm o-project-preview'}>
-                <ProjectThumbnail
-                  title={'Recurly'}
-                  logline={'Subscription billing management'}
-                  slug={'recurly'}
-                  path={'work/recurly'}
-                />
-              </div>
+              { Object.keys(this.props.data.projects).map((project,idx) => {
+                return (
+                  <div className={'o-grid__col u-1/1 u-1/2@sm o-project-preview'}>
+                    <ProjectThumbnail
+                      title={ this.props.data.projects[project].title }
+                      logline={ this.props.data.projects[project].logline }
+                      slug={ project }
+                      path={ `work/${project}`}
+                      />
+                  </div>
+                )
+              })}
             </div>
 
           </div>

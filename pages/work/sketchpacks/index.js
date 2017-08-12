@@ -27,8 +27,8 @@ export default class extends React.Component {
                 <div className={'o-grid__col u-1/1 u-1/2@sm'}>
                   <h1 className={'o-type-promo u-mb-medium'}>Sketchpacks</h1>
                   <p className={'o-type-lead u-mb-medium'}>
-                    Designing for simple Sketch plugin management and syncing across machines
-                    and teams.
+                    Designing a service to provide simple Sketch plugin
+                    management and syncing across machines and teams.
                   </p>
                   <a href={'https://sketchpacks.com/'} className={'c-button c-button--primary'}>
                     Download Sketchpacks
@@ -37,8 +37,7 @@ export default class extends React.Component {
 
                 <div className={'o-grid__col u-1/1 u-1/2@sm u-text-center u-text-right@sm'}>
                   <img
-                    src="/static/work/sketchpacks/icon@2x.png"
-                    width="256"
+                    src="/static/work/sketchpacks/promo@2x.png"
                     className={'u-mb-large u-float-right'}
                   />
                 </div>
@@ -331,13 +330,13 @@ export default class extends React.Component {
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>Management</h2>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Semantic Versioning provided users the capability of flexible
-                  and consistent version locking and updating strategies
-                  without the burden.
+                  People want fine&ndash;grain control through an unibstrusive
+                  and simple interface.
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Set your preferred strategy and forget it.
+                  Power users create custom strategies by defining semantic version
+                  ranges for ultimate control.
                 </p>
               </div>
 

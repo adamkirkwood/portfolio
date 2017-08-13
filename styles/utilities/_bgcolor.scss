@@ -6,8 +6,6 @@
 
 $iota-utils-bgcolor-names: (
   'white': '#ffffff',
-  'tango': '#ef5231',
-  'recurly': '#5b2565',
   'gray-0': $oc-gray-0,
   'gray-1': $oc-gray-1,
   'gray-2': $oc-gray-2,
@@ -16,7 +14,14 @@ $iota-utils-bgcolor-names: (
   'gray-5': $oc-gray-5,
   'gray-6': $oc-gray-6,
   'gray-7': $oc-gray-7,
-  'gray-9': $oc-gray-9
+  'gray-9': $oc-gray-9,
+
+
+  'sketchpacks': '#673AB7',
+  'tango': '#ef5231',
+  'tango-video-calling': '#ef5231',
+  'tango-out': '#00D5B5',
+  'recurly': '#5b2565'
 );
 
 

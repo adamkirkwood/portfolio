@@ -3,9 +3,10 @@ import Typekit from 'react-typekit'
 
 import CSSTag from 'components/CSSTag'
 import MainNavigation from 'components/MainNavigation'
+import CaseStudyPager from 'components/CaseStudyPager'
 import Footer from 'components/Footer'
 
-export default ({ children, title = 'This is the default title' }) => (
+export default ({ children, title = 'This is the default title', currentProject }) => (
   <div>
     <Head>
       <title>
@@ -20,6 +21,8 @@ export default ({ children, title = 'This is the default title' }) => (
     </Head>
 
     { children }
+
+    <CaseStudyPager current={ currentProject } />
 
     <Footer />
 

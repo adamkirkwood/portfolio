@@ -1,3 +1,5 @@
+import ReactSVG from 'react-svg'
+
 import { Link } from '../../routes'
 
 export default ({ inverse }) => {

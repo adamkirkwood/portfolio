@@ -17,7 +17,8 @@
     ]
   ],
   "presets": [
-    "next/babel"
+    "next/babel",
+    "es2015"
   ],
   "ignore": []
 }

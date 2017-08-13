@@ -46,14 +46,14 @@ export default class extends React.Component {
 
         <div className={'o-page-header'}>
           <section className={'c-cover'}>
-            <div className={'o-container u-pv-ultra'}>
+            <div className={'o-container u-pt-ultra u-pb-mega'}>
               <div className={'o-grid'}>
-                <div className="o-grid__col u-1/1 u-2/3@sm">
-                  <h1 className={'o-type-promo u-color-gray-9 u-mb-small u-weight-normal'}>
-                    Portfolio
-                  </h1>
+                <div className={'o-grid__col u-1/1 u-1/3@sm'}>
+                  <h2 className={'o-type-display-2 u-color-headline o-scored'}>Portfolio</h2>
+                </div>
 
-                  <p className={'o-type-body-2 u-color-body-2 o-scored'}>
+                <div className="o-grid__col u-1/1 u-2/3@sm  o-page-content">
+                  <p className={'o-type-body-2 u-color-body-2'}>
                     I&apos;ve worked on projects of all sizes &mdash; from
                     Tango&apos;s iOS and Android mobile clients serving 330
                     million users, to features across Recurly's mission&ndash;critical

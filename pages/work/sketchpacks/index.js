@@ -10,13 +10,15 @@ import ProjectLayout from 'components/layouts/ProjectLayout'
 import { Link } from '../../../routes'
 
 export default class extends React.Component {
-  static async getInitialProps ({ query, req }) {
-    return {}
+  static async getInitialProps ({ query, req, asPath }) {
+    return {
+      currentProject: asPath.split('/').slice(-1)[0]
+    }
   }
 
   render () {
     return (
-      <ProjectLayout title={'Sketchpacks'}>
+      <ProjectLayout title={'Sketchpacks'} currentProject={ this.props.currentProject }>
 
         <MainNavigation inverse />
 
@@ -76,7 +78,7 @@ export default class extends React.Component {
                 callback={svg => console.log(svg)}
                 className="u-fill-twitter"
                 style={{ width: 32 }}
-                />
+              />
             </div>
 
             <p className={'o-type-big-quote u-weight-light o-type-italic u-color-quote u-mb-small'}>

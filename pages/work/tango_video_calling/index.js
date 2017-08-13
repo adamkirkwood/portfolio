@@ -7,13 +7,15 @@ import ProjectLayout from 'components/layouts/ProjectLayout'
 import { Link } from '../../../routes'
 
 export default class extends React.Component {
-  static async getInitialProps ({ query, req }) {
-    return {}
+  static async getInitialProps ({ query, req, asPath }) {
+    return {
+      currentProject: asPath.split('/').slice(-1)[0]
+    }
   }
 
   render () {
     return (
-      <ProjectLayout title={'Tango Video Calling'}>
+      <ProjectLayout title={'Tango Video Calling'} currentProject={ this.props.currentProject }>
         <MainNavigation inverse />
 
         <article className={'l-case-study'}>

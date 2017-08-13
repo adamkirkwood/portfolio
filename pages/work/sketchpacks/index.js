@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactSVG from 'react-svg'
 
 import MainNavigation from 'components/MainNavigation'
 import JobStoryCard from 'components/JobStoryCard'
@@ -69,6 +70,15 @@ export default class extends React.Component {
           </section>
 
           <blockquote className={'o-container o-container--wide u-pv-large c-quote u-1/2 u-ph-large'}>
+            <div className={'c-card c-card--circle u-inline-block u-ph-small u-mb-medium'}>
+              <ReactSVG
+                path="/static/svg/twitter.svg"
+                callback={svg => console.log(svg)}
+                className="u-fill-twitter"
+                style={{ width: 32 }}
+                />
+            </div>
+
             <p className={'o-type-big-quote u-weight-light o-type-italic u-color-quote u-mb-small'}>
               &ldquo;I&apos;m super excited about @sketchpacks, that was a much needed tool!&rdquo;
             </p>
@@ -399,11 +409,16 @@ export default class extends React.Component {
                 <h2 className={'o-type-display-2 u-color-headline o-scored'}>The Impact</h2>
               </div>
 
-              <div className={'o-grid__col u-1/1 u-2/3@sm'}>
+              <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Since the <a href="https://medium.com/building-sketchpacks/introducing-sketchpacks-for-macos-8f4df3313b95">product launch</a> in March &apos;17, our team of two has
-                  achieved a considerable amount of milestones yielding us some
-                  impressive and humbling results.
+                  Since the <a href="https://medium.com/building-sketchpacks/introducing-sketchpacks-for-macos-8f4df3313b95">product launch</a> in March &apos;17,
+                  the response has been both humbling and amazing. The app&apos;s
+                  monthly active users grows healthily month&ndash;over&ndash;month.
+                </p>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  However, the journey does not end here. The future is still
+                  full with a backlog of feature requests and improvements.
                 </p>
               </div>
             </div>

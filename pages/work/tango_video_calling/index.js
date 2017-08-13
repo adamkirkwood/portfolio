@@ -31,7 +31,7 @@ export default class extends React.Component {
 
                 <div className={'o-grid__col u-1/2'}>
                   <img
-                    src="/static/work/sketchpacks/app@2x.png"
+                    src="/static/work/tango-video-calling/tango-video-call-preview@2x.png"
                     width="370"
                     className={'u-mb-large'}
                   />

@@ -21,27 +21,40 @@ export default class extends React.Component {
         <article className={'l-case-study'}>
 
           <div className={'u-angled--bottom o-page-header o-page-header--tango-out'}>
-            <section className={'o-container o-container--wide u-pt-ultra u-pb-large'}>
+            <section className={'o-container u-pt-ultra'}>
               <header className={'o-grid o-grid--wide'}>
-                <div className={'o-grid__col u-1/2'}>
-                  <h1 className={'o-type-promo u-mb-medium u-color-gray-9'}>Tango Out</h1>
-                  <p className={'o-type-lead u-mb-medium u-color-gray-8'}>
+                <div className={'o-grid__col u-1/1 u-mb-large'}>
+                  <h1 className={'o-type-promo u-mb-medium u-1/2@sm'}>Tango Out</h1>
+                  <p className={'o-type-lead u-1/2@sm'}>
                     Make phone calls around the world. For free.
                   </p>
-                </div>
-
-                <div className={'o-grid__col u-1/2'}>
-                  <img
-                    src="/static/work/sketchpacks/app@2x.png"
-                    width="370"
-                    className={'u-mb-large'}
-                  />
                 </div>
               </header>
             </section>
           </div>
 
-          <section className={'o-container u-pv-ultra u-mt-mega'}>
+
+          <section className={'o-container u-pt-mega u-mt-large@sm c-case-study__lead'}>
+            <div className={'o-grid'}>
+              <div className={'o-grid__col u-1/1 u-1/2@md c-case-study__lead__media'}>
+                <img
+                  src="/static/work/tango-out/promo@2x.png"
+                  width="375"
+                  className={''}
+                />
+              </div>
+
+              <div className={'o-grid__col u-1/1 u-1/2@sm o-page-content c-case-study__content'}>
+                <h2 className={'o-type-display-1 u-color-headline'}>Tango</h2>
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </section>
+
+
+          <section className={'o-container u-pb-large u-mt-mega'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm'}>
                 <h2 className={'o-type-display-2 u-color-headline'}>The Challenge</h2>

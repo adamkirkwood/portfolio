@@ -21,28 +21,44 @@ export default class extends React.Component {
         <article className={'l-case-study'}>
 
           <div className={'u-angled--bottom o-page-header o-page-header--tango'}>
-            <section className={'o-container o-container--wide u-pt-ultra u-pb-large'}>
+            <section className={'o-container u-pt-ultra'}>
               <header className={'o-grid o-grid--wide'}>
-                <div className={'o-grid__col u-1/2'}>
-                  <h1 className={'o-type-promo u-mb-medium'}>Tango Video Calling</h1>
-                  <p className={'o-type-lead u-mb-medium'}>
+                <div className={'o-grid__col u-1/1 u-mb-large'}>
+                  <h1 className={'o-type-promo u-mb-medium u-1/2@sm'}>Tango Video Calling</h1>
+                  <p className={'o-type-lead u-1/2@sm'}>
                     Expanding the cross&ndash;platform video calling experience
                     used by millions of friends &amp; family around the world
                   </p>
-                </div>
-
-                <div className={'o-grid__col u-1/2'}>
-                  <img
-                    src="/static/work/tango-video-calling/tango-video-call-preview@2x.png"
-                    width="370"
-                    className={'u-mb-large'}
-                  />
                 </div>
               </header>
             </section>
           </div>
 
-          <section className={'o-container u-pv-ultra u-mt-mega'}>
+
+          <section className={'o-container u-pt-mega u-mt-large@sm c-case-study__lead'}>
+            <div className={'o-grid'}>
+              <div className={'o-grid__col u-1/1 u-1/2@md c-case-study__lead__media'}>
+                <img
+                  src="/static/work/tango-video-calling/tango-video-call-preview@2x.png"
+                  width="375"
+                  className={''}
+                />
+              </div>
+
+              <div className={'o-grid__col u-1/1 u-1/2@sm o-page-content c-case-study__content'}>
+                <h2 className={'o-type-display-1 u-color-headline'}>Tango</h2>
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </section>
+
+
+
+
+
+          <section className={'o-container u-mt-mega'}>
             <div className={'o-grid'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm'}>
                 <h2 className={'o-type-display-2 u-color-headline'}>The Challenge</h2>
@@ -68,21 +84,8 @@ export default class extends React.Component {
             </div>
           </section>
 
-          <section className={'u-mb-ultra'}>
-            <figure>
-              <img
-                src="/static/work/tango-video-calling/execution@2x.jpg"
-                className={'u-mb-small'}
-              />
 
-              <figcaption className={'o-type-small u-color-body-1 u-text-center'}>
-                A simplified experience focused on discovering, browsing, and
-                navigating shared content between friends and family.
-              </figcaption>
-            </figure>
-          </section>
-
-          <section className={'o-container u-mt-mega u-mb-mega u-pt-large'}>
+          <section className={'o-container u-pb-ultra u-mt-ultra'}>
             <div className={'o-grid'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm'}>
                 <h2 className={'o-type-display-2 u-color-headline'}>The<br /> Approach</h2>
@@ -193,7 +196,7 @@ export default class extends React.Component {
 
           <section className={'o-container u-pt-ultra u-pb-medium'}>
             <div className={'o-grid o-grid--wide'}>
-              <div className={'o-grid__col u-1/2 o-page-content'}>
+              <div className={'o-grid__col u-1/1 u-1/2@sm o-page-content'}>
                 <h2 className={'o-type-display-2 u-color-headline u-mb-small'}>
                   The Outcome
                 </h2>
@@ -227,7 +230,7 @@ export default class extends React.Component {
                 </p>
               </div>
 
-              <div className={'o-grid__col u-1/2'}>
+              <div className={'o-grid__col u-1/1 u-1/2@sm'}>
                 <figure>
                   <img
                     src="//giant.gfycat.com/SpitefulAffectionateKusimanse.gif"

@@ -25,11 +25,11 @@ export default class extends React.Component {
         <article className={'l-case-study'}>
 
           <div className={'u-angled--bottom o-page-header o-page-header--sketchpacks'}>
-            <section className={'o-container o-container--wide u-pt-ultra u-pb-large'}>
+            <section className={'o-container u-pt-ultra'}>
               <header className={'o-grid o-grid--wide'}>
-                <div className={'o-grid__col u-1/1 u-1/2@sm'}>
-                  <h1 className={'o-type-promo u-mb-medium'}>Sketchpacks</h1>
-                  <p className={'o-type-lead u-mb-medium'}>
+                <div className={'o-grid__col u-1/1 u-mb-large'}>
+                  <h1 className={'o-type-promo u-mb-medium u-1/2@sm'}>Sketchpacks</h1>
+                  <p className={'o-type-lead u-1/2@sm u-mb-medium'}>
                     Designing a service to provide simple Sketch plugin
                     management and syncing across machines and teams.
                   </p>
@@ -37,21 +37,32 @@ export default class extends React.Component {
                     Download Sketchpacks
                   </a>
                 </div>
-
-                <div className={'o-grid__col u-1/1 u-1/2@sm u-text-center u-text-right@sm'}>
-                  <img
-                    src="/static/work/sketchpacks/promo@2x.png"
-                    className={'u-mb-large u-float-right'}
-                  />
-                </div>
               </header>
             </section>
           </div>
 
-          <section className={'o-container u-pv-ultra u-mt-mega'}>
+          <section className={'o-container u-pt-mega u-mv-large@sm c-case-study__lead'}>
+            <div className={'o-grid'}>
+              <div className={'o-grid__col u-1/1 u-1/2@md c-case-study__lead__media'}>
+                <img
+                  src="/static/work/sketchpacks/promo@2x.png"
+                  className={''}
+                />
+              </div>
+
+              <div className={'o-grid__col u-1/1 u-1/2@sm o-page-content c-case-study__content'}>
+                <h2 className={'o-type-display-1 u-color-headline'}>Sketchpacks</h2>
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section className={'o-container u-pb-ultra u-mt-ultra'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm'}>
-                <h2 className={'o-type-display-2 u-color-headline o-scored'}>The Challenge</h2>
+                <h2 className={'o-type-display-2 u-color-headline'}>The Challenge</h2>
               </div>
               <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
@@ -71,7 +82,7 @@ export default class extends React.Component {
             </div>
           </section>
 
-          <blockquote className={'o-container o-container--wide u-pv-large c-quote u-1/2 u-ph-large'}>
+          <blockquote className={'o-container o-container--wide u-pv-large c-quote u-1/2@md u-ph-large'}>
             <div className={'c-card c-card--circle u-inline-block u-ph-small u-mb-medium'}>
               <ReactSVG
                 path="/static/svg/twitter.svg"
@@ -92,7 +103,7 @@ export default class extends React.Component {
           <section className={'o-container u-pt-mega u-pb-large u-angled--top'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm'}>
-                <h2 className={'o-type-display-2 u-color-headline o-scored'}>The Approach</h2>
+                <h2 className={'o-type-display-2 u-color-headline'}>The Approach</h2>
               </div>
               <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
@@ -275,7 +286,7 @@ export default class extends React.Component {
 
 
           <div className={'u-bgcolor-gray-0'}>
-            <blockquote className={'o-container u-pv-large c-quote u-1/2 u-ph-large'}>
+            <blockquote className={'o-container u-pv-large c-quote u-1/2@md u-ph-large'}>
               <p className={'o-type-big-quote u-weight-light o-type-italic u-color-quote u-mb-small'}>
                 &ldquo;The beauty of a living thing is not the atoms that go into
                 it, but the way those atoms are put together.&rdquo;
@@ -291,7 +302,7 @@ export default class extends React.Component {
           <section className={'o-container u-pt-mega u-pb-large u-angled--top'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm'}>
-                <h2 className={'o-type-display-2 u-color-headline o-scored'}>The Strategy</h2>
+                <h2 className={'o-type-display-2 u-color-headline'}>The Strategy</h2>
               </div>
 
               <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
@@ -408,7 +419,7 @@ export default class extends React.Component {
           <section className={'o-container u-pt-ultra u-pb-large u-angled--top'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm'}>
-                <h2 className={'o-type-display-2 u-color-headline o-scored'}>The Impact</h2>
+                <h2 className={'o-type-display-2 u-color-headline'}>The Impact</h2>
               </div>
 
               <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
@@ -427,9 +438,9 @@ export default class extends React.Component {
           </section>
 
           <div className={'u-bgcolor-gray-9'}>
-            <section className={'o-container o-container--wide u-pv-large u-mt-large'}>
+            <section className={'o-container o-container--wide u-mt-large'}>
               <div className={'o-grid o-grid--wide'}>
-                <div className={'o-grid__col u-1/1 u-1/4@sm'}>
+                <div className={'o-grid__col u-1/2 u-1/4@md u-mv-large'}>
                   <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0 u-block'}>
                     App Downloads
                   </span>
@@ -438,7 +449,7 @@ export default class extends React.Component {
                   </p>
                 </div>
 
-                <div className={'o-grid__col u-1/1 u-1/4@sm'}>
+                <div className={'o-grid__col u-1/2 u-1/4@md u-mv-large'}>
                   <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0'}>
                     Plugin Installs
                   </span>
@@ -447,7 +458,7 @@ export default class extends React.Component {
                   </p>
                 </div>
 
-                <div className={'o-grid__col u-1/1 u-1/4@sm'}>
+                <div className={'o-grid__col u-1/2 u-1/4@md u-mv-large'}>
                   <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0'}>
                     Plugin Updates
                   </span>
@@ -456,7 +467,7 @@ export default class extends React.Component {
                   </p>
                 </div>
 
-                <div className={'o-grid__col u-1/1 u-1/4@sm'}>
+                <div className={'o-grid__col u-1/2 u-1/4@md u-mv-large'}>
                   <span className={'u-weight-medium u-color-headline u-uppercase o-type-small u-color-gray-0'}>
                     Monthly Active Users
                   </span>

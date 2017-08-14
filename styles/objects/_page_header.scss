@@ -1,5 +1,34 @@
+.c-case-study {
+  // &__lead__media {
+  //   text-align: center;
+  //   margin-top: -200px;
+  //   z-index: 10;
+  // }
+  @include iota-breakpoint(sm) {
+    &__lead__media {
+      text-align: right;
+      margin-top: -280px;
+      z-index: 10;
+    }
+  }
+
+  @include iota-breakpoint(sm) {
+    &__lead .o-grid {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+
 .o-page-header {
 
+  min-height: 520px;
+  height: 520px;
+
+  @include iota-breakpoint(sm) {
+    min-height: 480px;
+    height: 480px;
+  }
 
   .o-type-promo {
     color: $oc-gray-0;

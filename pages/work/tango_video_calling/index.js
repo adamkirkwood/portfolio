@@ -24,10 +24,10 @@ export default class extends React.Component {
             <section className={'o-container u-pt-ultra'}>
               <header className={'o-grid o-grid--wide'}>
                 <div className={'o-grid__col u-1/1 u-mb-large'}>
-                  <h1 className={'o-type-promo u-mb-medium u-1/2@sm'}>Tango Video Calling</h1>
+                  <h1 className={'o-type-promo u-mb-medium u-2/3@sm'}>Cross&ndash;platform video calling</h1>
                   <p className={'o-type-lead u-1/2@sm'}>
-                    Expanding the cross&ndash;platform video calling experience
-                    used by millions of friends &amp; family around the world
+                    Tango provides free video calls to over 330,000,000 people around
+                    the world. Available for iOS and Android users.
                   </p>
                 </div>
               </header>
@@ -48,7 +48,8 @@ export default class extends React.Component {
               <div className={'o-grid__col u-1/1 u-1/2@sm o-page-content c-case-study__content'}>
                 <h2 className={'o-type-display-1 u-color-headline'}>Tango</h2>
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  The app&apos;s popularity comes from the rich and engaging content
+                  that is accessible during a video call.
                 </p>
               </div>
             </div>

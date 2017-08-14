@@ -20,13 +20,15 @@ export default class extends React.Component {
 
         <article className={'l-case-study'}>
 
-          <div className={'u-angled--bottom o-page-header o-page-header--tango-out'}>
+          <div className={'u-angled--bottom o-page-header o-page-header--tango'}>
             <section className={'o-container u-pt-ultra'}>
               <header className={'o-grid o-grid--wide'}>
                 <div className={'o-grid__col u-1/1 u-mb-large'}>
-                  <h1 className={'o-type-promo u-mb-medium u-1/2@sm'}>Tango Out</h1>
+                  <h1 className={'o-type-promo u-mb-medium u-2/3@sm'}>Affordable voice calls for everyone</h1>
                   <p className={'o-type-lead u-1/2@sm'}>
-                    Make phone calls around the world. For free.
+                    Tango Out makes keeping in touch with friends and family
+                    easy and affordable by providing free and paid domestic and
+                    international voice calls.
                   </p>
                 </div>
               </header>
@@ -47,7 +49,9 @@ export default class extends React.Component {
               <div className={'o-grid__col u-1/1 u-1/2@sm o-page-content c-case-study__content'}>
                 <h2 className={'o-type-display-1 u-color-headline'}>Tango</h2>
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  The counter&ndash;part to the video calling service, much of userbase
+                  still relied on domestic and international phone calls to keep in
+                  touch with friends and family from around the world.
                 </p>
               </div>
             </div>

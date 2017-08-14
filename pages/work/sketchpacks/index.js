@@ -28,10 +28,10 @@ export default class extends React.Component {
             <section className={'o-container u-pt-ultra'}>
               <header className={'o-grid o-grid--wide'}>
                 <div className={'o-grid__col u-1/1 u-mb-large'}>
-                  <h1 className={'o-type-promo u-mb-medium u-1/2@sm'}>Sketchpacks</h1>
+                  <h1 className={'o-type-promo u-mb-medium u-2/3@sm'}>Sketch plugin management</h1>
                   <p className={'o-type-lead u-1/2@sm u-mb-medium'}>
-                    Designing a service to provide simple Sketch plugin
-                    management and syncing across machines and teams.
+                    Sketchpacks helps Sketch users discover, manage, and sync
+                    their plugins across machines and teams.
                   </p>
                   <a href={'https://sketchpacks.com/'} className={'c-button c-button--primary'}>
                     Download Sketchpacks
@@ -42,7 +42,7 @@ export default class extends React.Component {
           </div>
 
           <section className={'o-container u-pt-mega u-mv-large@sm c-case-study__lead'}>
-            <div className={'o-grid'}>
+            <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/1 u-1/2@md c-case-study__lead__media'}>
                 <img
                   src="/static/work/sketchpacks/promo@2x.png"
@@ -53,13 +53,20 @@ export default class extends React.Component {
               <div className={'o-grid__col u-1/1 u-1/2@sm o-page-content c-case-study__content'}>
                 <h2 className={'o-type-display-1 u-color-headline'}>Sketchpacks</h2>
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  When first launched, Sketchpacks was only a Sketch plugin registry
+                  with a web front&ndash;end interface. Today, Sketchpacks is a desktop app
+                  helping designers and teams manage and sync their Sketch plugins.
+                </p>
+
+                <p className={'o-type-body-2 u-color-body-1'}>
+                  Sketchpacks desktop is built with Electron, React and Redux which
+                  fetches its data from an API built on top of Ruby on Rails.
                 </p>
               </div>
             </div>
           </section>
 
-          <section className={'o-container u-pb-ultra u-mt-ultra'}>
+          <section className={'o-container u-pb-mega u-mt-ultra'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm'}>
                 <h2 className={'o-type-display-2 u-color-headline'}>The Challenge</h2>

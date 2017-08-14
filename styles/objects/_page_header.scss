@@ -23,11 +23,9 @@
 .o-page-header {
 
   min-height: 520px;
-  height: 520px;
 
   @include iota-breakpoint(sm) {
     min-height: 480px;
-    height: 480px;
   }
 
   .o-type-promo {
@@ -48,12 +46,6 @@
     background: #EF5231;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #C83F23, #EF5231);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #C83F23, #EF5231); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
-
-  &--tango-out {
-    background: #00ECDB;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #00D5B5, #00ECDB);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #00D5B5, #00ECDB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   &--sketchpacks {

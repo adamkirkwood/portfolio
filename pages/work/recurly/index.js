@@ -24,9 +24,11 @@ export default class extends React.Component {
             <section className={'o-container u-pt-ultra'}>
               <header className={'o-grid o-grid--wide'}>
                 <div className={'o-grid__col u-1/1 u-mb-large'}>
-                  <h1 className={'o-type-promo u-mb-medium u-1/2@sm'}>Recurly</h1>
+                  <h1 className={'o-type-promo u-mb-medium u-1/2@sm'}>Subscription billing for everyone</h1>
                   <p className={'o-type-lead u-1/2@sm'}>
-                    Enterprise&ndash;class subscription management platform
+                    Recurly is an enterprise&ndash;class subscription management
+                    platform helping businesses harness the power of the
+                    recurring revenue model.
                   </p>
                 </div>
               </header>
@@ -46,7 +48,9 @@ export default class extends React.Component {
               <div className={'o-grid__col u-1/1 u-1/2@sm o-page-content c-case-study__content'}>
                 <h2 className={'o-type-display-1 u-color-headline'}>Recurly</h2>
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  Businesses around the world rely on Recurly&apos;s deep expertise
+                  in the payments industry to provide robust subscription billing management
+                  software flexible enough to meet the demands of an evolving industry.
                 </p>
               </div>
             </div>
@@ -61,14 +65,15 @@ export default class extends React.Component {
               <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
                   Recurly app, a robust recurring billing solution, felt dated
-                  at the aesthetic level. Myself and 3 other designers decided
-                  to create a new visual foundation to build upon.
+                  at the aesthetic level. The design team was tasked with creating
+                  a new UI to serve as the new foundation for the future.
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                I worked on design visuals down to the nitty gritty details of implementation.
-                I focused on identifying and establishing design patterns.
-                Coordinating across teams to ensure consistency between design and implemented UI.
+                  I worked on design visuals down to the nitty gritty details
+                  of implementation. I focused on identifying and establishing
+                  design patterns, while coordinating across teams facilitating
+                  design intent and engineering concerns.
                 </p>
               </div>
             </div>

@@ -24,7 +24,7 @@ export default class extends React.Component {
             <section className={'o-container u-pt-ultra'}>
               <header className={'o-grid o-grid--wide'}>
                 <div className={'o-grid__col u-1/1 u-mb-large'}>
-                  <h1 className={'o-type-promo u-mb-medium u-1/2@sm'}>Subscription billing for everyone</h1>
+                  <h1 className={'o-type-promo u-mb-medium u-2/3@sm'}>A mission&ndash;critical redesign</h1>
                   <p className={'o-type-lead u-1/2@sm'}>
                     Recurly is an enterprise&ndash;class subscription management
                     platform helping businesses harness the power of the

@@ -16,7 +16,7 @@ export default class extends React.Component {
   render () {
     return (
       <ProjectLayout title={'Tango Out'} currentProject={ this.props.currentProject }>
-        <MainNavigation />
+        <MainNavigation inverse />
 
         <article className={'l-case-study'}>
 
@@ -49,7 +49,8 @@ export default class extends React.Component {
               <div className={'o-grid__col u-1/1 u-1/2@sm o-page-content c-case-study__content'}>
                 <h2 className={'o-type-display-1 u-color-headline'}>Tango</h2>
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  The counter&ndash;part to the video calling service, much of userbase
+                  Aside from offering a free video calling service, Tango also
+                  wanted to offer standard voice calling. Much of the user base
                   still relied on domestic and international phone calls to keep in
                   touch with friends and family from around the world.
                 </p>
@@ -66,7 +67,7 @@ export default class extends React.Component {
               <div className={'o-grid__col u-1/1 u-2/3@sm o-page-content'}>
                 <p className={'o-type-body-2 u-color-body-1'}>
                   Tango wanted to round&ndash;out the calling experience that brought
-                  it much success during it&apos; initial launch by bringing in
+                  it much success during it&apos;s initial launch by bringing in
                   free &amp; paid voice calling.
                 </p>
 
@@ -80,7 +81,7 @@ export default class extends React.Component {
           </section>
 
           <div className={'u-bgcolor-gray-0'}>
-            <section className={'o-container o-container--wide u-pt-mega u-pb-mega u-mv-large'}>
+            <section className={'o-container o-container--wide u-pt-mega u-pb-large u-mv-large'}>
               <div className={'o-grid o-grid--wide o-grid--cards'}>
 
                 <div className={'o-grid__col u-1/1 u-mb-large u-text-center@sm o-page-content'}>
@@ -182,7 +183,7 @@ export default class extends React.Component {
           </div>
 
 
-          <section className={'o-container u-pt-ultra u-pb-mega'}>
+          <section className={'o-container u-pt-large u-pb-large'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm'}>
                 <h2 className={'o-type-display-2 u-color-headline'}>The Outcome</h2>
@@ -372,7 +373,7 @@ export default class extends React.Component {
             />
           </section>
 
-          <section className={'o-container u-pt-ultra u-pb-mega'}>
+          <section className={'o-container u-pt-mega u-pb-mega'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col u-1/1 u-1/3@sm'}>
                 <h2 className={'o-type-display-2 u-color-headline'}>The Takeaways</h2>

@@ -48,7 +48,7 @@ export default ({ current }) => (
       <div className={`o-grid__col u-1/1 u-1/2@sm u-pv-large u-bgcolor-${getNext(current)}`}>
         <div className={'u-mh-large u-mh-small@sm u-mh-large@md u-2/3@lg'}>
           <strong className={'u-inline-block u-mb-small u-uppercase o-type-small u-color-gray-2'}>
-            Next Up
+            Up Next
           </strong>
 
           <h2 className={'o-text-title u-color-gray-2 u-mb-small'}>

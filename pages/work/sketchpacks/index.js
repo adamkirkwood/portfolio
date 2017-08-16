@@ -53,14 +53,16 @@ export default class extends React.Component {
               <div className={'o-grid__col u-1/1 u-1/2@sm o-page-content c-case-study__content'}>
                 <h2 className={'o-type-display-1 u-color-headline'}>Sketchpacks</h2>
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  When first launched, Sketchpacks was only a Sketch plugin registry
-                  with a web front&ndash;end interface. Today, Sketchpacks is a desktop app
-                  helping designers and teams manage and sync their Sketch plugins.
+                  What first was just a side&ndash;project has grown into a
+                  Sketch plugin registry, macOS desktop app, and distribution channel
+                  for many Sketch users and developers. Sketchpacks helps designers
+                  manage and sync their essential Sketch plugins across machines and teams.
                 </p>
 
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Sketchpacks desktop is built with Electron, React and Redux which
-                  fetches its data from an API built on top of Ruby on Rails.
+                  Sketchpacks desktop is built with Electron, React and Redux,
+                  fetching the latest plugins from a content rich API built on
+                  top of Ruby on Rails.
                 </p>
               </div>
             </div>
@@ -130,7 +132,7 @@ export default class extends React.Component {
             </div>
           </section>
 
-          <section className={'o-container o-container--wide u-pt-large u-pb-mega'}>
+          <section className={'o-container o-container--wide u-pt-medium u-pb-large'}>
             <div className={'o-grid o-grid--wide'}>
               <div className={'o-grid__col col-1/1 u-1/3@sm o-page-content'}>
                 <h2 className={'o-type-title u-color-headline u-mb-small'}>The journey starts with the people</h2>
@@ -170,7 +172,7 @@ export default class extends React.Component {
           </section>
 
           <div className={'u-bgcolor-gray-0'}>
-            <section className={'o-container o-container--wide u-pt-mega u-pb-mega u-mv-large'}>
+            <section className={'o-container o-container--wide u-pt-mega u-pb-large u-mv-large'}>
               <div className={'o-grid o-grid--wide o-grid--cards'}>
 
                 <div className={'o-grid__col o-grid--equal-height u-1/1 u-mb-large u-text-center@sm o-page-content'}>
@@ -293,7 +295,7 @@ export default class extends React.Component {
 
 
           <div className={'u-bgcolor-gray-0'}>
-            <blockquote className={'o-container u-pv-large c-quote u-1/2@md u-ph-large'}>
+            <blockquote className={'o-container u-pv-mega c-quote u-1/2@md u-ph-large'}>
               <p className={'o-type-big-quote u-weight-light o-type-italic u-color-quote u-mb-small'}>
                 &ldquo;The beauty of a living thing is not the atoms that go into
                 it, but the way those atoms are put together.&rdquo;

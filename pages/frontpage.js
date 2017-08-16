@@ -43,10 +43,14 @@ export default class extends React.Component {
 
         <div className={'o-page-header'}>
           <section className={'c-cover'}>
-            <div className={'o-container u-pt-ultra u-pb-large'}>
+            <div className={'u-pt-mega u-pb-large'}>
               <div className={'o-grid'}>
-                <div className="o-grid__col u-1/1 u-2/3@sm">
-                  <h1 className={'o-type-display-2 u-mb-small u-weight-normal'}>
+                <div className="o-grid__col u-1/1 u-1/2@md u-mb-large">
+                  <img src="/static/images/portrait-large2.png" />
+                </div>
+
+                <div className="o-grid__col u-1/1 u-1/2@md u-ph-medium u-ph-large@sm u-ph-large@sm">
+                  <h1 className={'o-type-display-1 u-mb-medium u-weight-normal'}>
                     👋🏽 I&apos;m Adam Kirkwood, <br />a digital product designer.
                   </h1>
 
@@ -71,7 +75,7 @@ export default class extends React.Component {
         </div>
 
 
-        <section className={'c-cover u-mt-mega u-mb-large'}>
+        <section className={'c-cover u-mt-medium u-mb-large'}>
           <div className={'o-container'}>
             <div className={'o-grid u-mb-large'}>
               <div className={'o-grid__col u-1/1'}>
@@ -101,7 +105,7 @@ export default class extends React.Component {
         </section>
 
 
-        <section className={'c-cover u-mt-mega u-mb-large'}>
+        <section className={'c-cover u-mt-mega u-mb-mega'}>
           <div className={'o-container'}>
             <div className={'o-grid o-grid--wide u-mb-large'}>
               <div className={'o-grid__col u-1/1'}>

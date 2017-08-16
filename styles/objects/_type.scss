@@ -23,10 +23,16 @@ $iota-objs-type-sizes: (
     sm: (35px, 50px)
   ),
   display-2: (45px, 60px),
-  display-1: (35px, 50px),
+  display-1: (
+    null: (24px, 32px),
+    sm: (35px, 50px)
+  ),
   lead: (20px, 36px),
   title: (24px, 32px),
-  headline: (20px, 32px),
+  headline: (
+    null: (18px, 32px),
+    small: (20px, 32px)
+  ),
   body-2: (18px, 32px),
   body-1: (16px, 28px),
   small: (14px,24px),

@@ -48,7 +48,7 @@ export default class extends React.Component {
               <div className={'o-grid__col u-1/1 u-1/2@sm o-page-content c-case-study__content'}>
                 <h2 className={'o-type-display-1 u-color-headline'}>Tango</h2>
                 <p className={'o-type-body-2 u-color-body-1'}>
-                  Tango took the Android and iOS app market by storm as it presented
+                  Tango took the Android and iOS app market by storm as it debuted
                   the first cross&ndash;platform video calling experience.
                   Much of its success grew from the rich and engaging content
                   that is accessible during a video call.

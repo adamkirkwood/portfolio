@@ -9,6 +9,13 @@ $transition: all .3s ease-in;
     left: 3.2rem;
   }
 
+
+  &:hover {
+    .o-overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  }
+
   .o-overlay {
     z-index: 10;
   }
@@ -16,6 +23,7 @@ $transition: all .3s ease-in;
   a {
     text-decoration: none;
     display: block;
+    position: relative;
   }
 
   p {

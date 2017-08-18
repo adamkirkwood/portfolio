@@ -86,10 +86,10 @@ export default class extends React.Component {
               </div>
             </div>
 
-            <div className={'o-grid o-grid--nospace'}>
+            <div className={'o-grid'}>
               { Object.keys(this.props.data.projects).map((project,idx) => {
                 return (
-                  <div className={'o-grid__col u-1/1 u-1/2@sm o-project-preview'}>
+                  <div className={'o-grid__col u-1/1 u-1/2@sm u-mb-small o-project-preview'}>
                     <ProjectThumbnail
                       title={ this.props.data.projects[project].title }
                       logline={ this.props.data.projects[project].logline }
@@ -118,12 +118,12 @@ export default class extends React.Component {
               </div>
             </div>
 
-            <div className={'o-grid o-grid--nospace'}>
+            <div className={'o-grid'}>
               { this.props.data.dribbble.map((shot, idx) => {
                 if (idx > 5) return
 
                 return (
-                  <div className="o-grid__col u-1/1 u-1/3@sm">
+                  <div className="o-grid__col u-1/1 u-1/3@sm u-mb-small">
                     <a href={shot.html_url} target="_blank" title={shot.title}>
                       <img
                         alt={shot.title}

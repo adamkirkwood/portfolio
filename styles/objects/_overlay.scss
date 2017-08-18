@@ -14,9 +14,4 @@ $transition: all .5s ease-out;
   display: block;
   position: absolute;
   top: 0;
-  left: 0;
-
-  &:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-  }
 }

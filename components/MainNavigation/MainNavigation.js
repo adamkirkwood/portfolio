@@ -33,6 +33,12 @@ export default ({ inverse }) => {
             </li>
 
             <li className={'o-list__item o-type-headline'}>
+              <a href="https://www.dropbox.com/s/oqcds7d420pn955/adam_kirkwood_resume.pdf?dl=0" target="_blank">
+                Resume
+              </a>
+            </li>
+
+            <li className={'o-list__item o-type-headline'}>
               <a href="mailto:hello@adamkirkwood.com">
                 Contact
               </a>

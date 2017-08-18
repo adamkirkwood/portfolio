@@ -49,7 +49,7 @@ export default class extends React.Component {
             <div className={'o-container u-pt-ultra u-pb-mega'}>
               <div className={'o-grid'}>
                 <div className={'o-grid__col u-1/1 u-1/3@sm'}>
-                  <h2 className={'o-type-display-2 u-color-headline o-scored'}>Portfolio</h2>
+                  <h2 className={'o-type-display-2 u-color-headline'}>Portfolio</h2>
                 </div>
 
                 <div className="o-grid__col u-1/1 u-2/3@sm  o-page-content">
